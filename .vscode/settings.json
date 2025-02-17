@@ -1,0 +1,16 @@
+{
+  "markdownlint.config": {
+    "default": true,
+    "MD013": false
+  },
+  "markdownlint.customRules": [
+    ".vscode/rules/heading-content-required.js"
+  ],
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": "explicit"
+  }
+}

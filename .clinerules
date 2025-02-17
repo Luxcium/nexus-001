@@ -1,0 +1,198 @@
+# Cline Project Rules
+
+Here is a revised and **precise set of instructions** for **Cline** that avoids ambiguity, provides clear context, and aligns with all stated preferences and requirements.
+
+## Table of Contents
+
+1. [General Guidelines](#general-guidelines)
+2. [System Requirements](#system-requirements)
+3. [Package Management](#package-management)
+4. [Project Structure](#project-structure)
+5. [Documentation Patterns](#documentation-patterns)
+6. [Version Control](#version-control)
+7. [Development Workflow](#development-workflow)
+8. [Project Preferences](#project-preferences)
+9. [Code Conventions](#code-conventions)
+10. [Task Execution](#task-execution)
+11. [Modularity and Scalability](#modularity-and-scalability)
+12. [Maintenance Guidelines](#maintenance-guidelines)
+13. [Learning Points](#learning-points)
+14. [Notes](#notes)
+15. [Markdown Formatting Standards](#markdown-formatting-standards)
+16. [Summary of Approach](#summary-of-approach)
+
+## General Guidelines
+
+- Context-Specific Outputs: Adapt outputs to respect the specific context of the current programming language or framework.
+- Conciseness and Clarity: Use precise, direct language to eliminate ambiguity.
+- Adaptive Intelligence: Interpret instructions while maintaining strict adherence to core principles.
+
+## System Requirements
+
+- Operating System Compatibility:
+  - Primary: Fedora Linux
+  - Support for other Linux distributions
+  - Cross-platform considerations when applicable.
+- System Integration:
+  - Follow standard filesystem hierarchy.
+  - Respect system security contexts (e.g., SELinux).
+  - Use standard configuration locations.
+  - Leverage system service management.
+- Container Requirements:
+  - Use distribution-appropriate base images
+  - Follow platform-specific best practices
+- Development Tools:
+  - Command-line focused workflow
+  - Platform-native tooling when available
+
+## Package Management
+
+- Node.js Environment:
+  - Package Manager: npm
+  - Maintain package-lock.json for dependency versioning.
+  - LTS Node.js versions preferred.
+- Command-line tooling is prioritized.
+- Regular security audits are required.
+
+## Project Structure
+
+- memory-bank/ contains all project documentation.
+- src/ contains source code.
+- tests/ contains test files.
+- The structure is modular and does not enforce any specific monorepo constraints.
+
+## Documentation Patterns
+
+- All changes must be reflected in memory-bank/.
+- activeContext.md must be updated with current work.
+- progress.md tracks completed and pending tasks.
+- File structure changes must be updated in systemPatterns.md.
+
+## Version Control
+
+- Use Git for version control.
+- Meaningful commit messages are required.
+- Update documentation before committing code changes.
+- Keep changes focused and atomic.
+
+## Development Workflow
+
+1. Check the Memory Bank for context.
+2. Implement required changes.
+3. Update the documentation.
+4. Verify changes.
+5. Commit updates.
+
+## Project Preferences
+
+- Use clear, descriptive names for files and directories.
+- Maintain documentation alongside code changes.
+- Adhere to the Memory Bank structure for consistency.
+- Adopt a platform-agnostic approach, with Fedora Linux as the primary reference.
+- Utilize npm as the package manager.
+
+## Code Conventions
+
+Implementing and enforcing consistent coding standards across the project ensures maintainable, readable, and reliable code. These conventions establish a unified approach to development that promotes collaboration and reduces technical debt through standardized practices.
+
+### JavaScript/TypeScript Standards
+
+- Adopt strict TypeScript configuration.
+- Naming Conventions:
+  - PascalCase for classes and types.
+  - camelCase for functions and variables.
+- Prefer named exports over default exports.
+
+### Python Standards
+
+- Follow PEP 8 guidelines.
+- Use explicit, descriptive naming.
+- Prefer absolute import paths.
+
+### Shell Scripting Standards
+
+- Use POSIX-compliant syntax.
+- Include comprehensive comments.
+- Avoid hardcoded paths when possible.
+
+## Task Execution
+
+- Prioritize command-line tools for:
+  - Project initialization.
+  - Dependency management.
+  - Script execution.
+- Minimize direct file manipulation.
+- Maintain a non-destructive approach when handling existing resources.
+
+## Modularity and Scalability
+
+Building software with a focus on modularity and scalability ensures the system can grow and adapt to changing requirements. This approach emphasizes loose coupling between components, clear separation of concerns, and extensible architecture that supports future enhancements.
+
+### Structural Principles
+
+- Separate concerns into distinct modules.
+- Implement clear, meaningful directory structures.
+- Utilize dependency injection and modular design practices.
+- Maintain clear architectural boundaries.
+
+### Key Directories
+
+- src/: Primary source code.
+- tests/: Testing infrastructure.
+- utils/: Shared utilities.
+- configs/: Configuration management.
+
+## Maintenance Guidelines
+
+Regular maintenance and systematic updates are essential for keeping the project healthy and efficient. These guidelines provide a framework for ongoing maintenance tasks, documentation updates, and code quality improvements that preserve the project's long-term viability.
+
+### Purpose
+
+- Serve as the primary repository for operational instructions.
+- Enable effective memory and preference management.
+- Define operational parameters and guidelines.
+
+### Maintenance Principles
+
+1. Periodic Review:
+   - Regularly assess and update documentation to reflect best practices.
+2. Update Methodology:
+   - Implement incremental modifications that preserve valuable existing information.
+3. Documentation Standards:
+   - Maintain a clear hierarchical structure.
+   - Use consistent markdown formatting.
+   - Provide comprehensive navigation support.
+4. Decision Framework:
+   - Evaluate the impact of changes.
+   - Implement only high-value modifications after thorough consideration.
+
+## Learning Points
+
+- The Memory Bank structure is established for documentation.
+- The project is initialized with an emphasis on maintainability and extensibility.
+- A documentation-first approach is maintained across all processes.
+- Integration of cross-platform and language-agnostic development standards is prioritized.
+
+## Notes
+
+- Project created: 2025-02-16.
+- Initial setup focuses on comprehensive documentation and a structured approach.
+- The Memory Bank pattern is central to project organization.
+- Guidelines are designed to evolve with emerging best practices.
+
+## Markdown Formatting Standards
+
+- All Markdown files must adhere strictly to established linting rules as defined by [markdownlint](https://github.com/DavidAnson/markdownlint).
+- Every heading in a Markdown document must be followed immediately by one or more non-empty paragraphs. A heading without content (i.e., without at least one non-blank line of text below it) is not permitted.
+- Before any subsequent heading of the same or a different level appears, ensure that a heading is accompanied by descriptive, substantive content.
+- These rules apply to all project documentation files to prevent empty sections and ensure comprehensive documentation.
+
+## Summary of Approach
+
+A dynamic, context-aware instruction set designed to provide flexible yet precise operational guidance across diverse programming environments.
+
+**Critical Directive:** Maintain absolute fidelity to documented principles while enabling intelligent, contextual interpretation.
+
+---
+
+**Note:** This document represents the definitive operational blueprint. All modifications must be executed with extreme precision and thoughtful consideration.
