@@ -11,12 +11,18 @@ Key Focus:
 
 ## Current Focus
 
-Active implementation of the Next.js 15+ development framework with emphasis on rendering strategies and component composition:
+Active implementation of the Next.js 15+ development framework with emphasis on network boundary management and component organization:
 
-1. **Next.js 15+ Development Infrastructure**
+1. **'use client' Implementation Strategy**
+   - Understanding bundling implications
+   - Network boundary management
+   - Cross-environment communication
+   - Type-safe component integration
+
+2. **Next.js 15+ Development Infrastructure**
    - Server Component implementation (default rendering strategy)
    - Client Component optimization
-   - Error handling mechanisms with component-specific strategies
+   - Module import chain management
    - Build and deployment pipelines with rendering consideration
 
 2. **Server-First Architecture**
@@ -47,11 +53,17 @@ Active implementation of the Next.js 15+ development framework with emphasis on 
 
 Implementation progress of Next.js 15+ framework:
 
-1. **Rendering Strategy Implementation**
+1. **Network Boundary Management**
+   - 'use client' directive implementation
+   - Server/Client code separation
+   - Cross-boundary communication patterns
+   - Component reference handling
+
+2. **Rendering Strategy Implementation**
    - Server Components established as default
    - Client Component patterns defined
-   - Component composition rules established
-   - Rendering optimization strategies implemented
+   - Environment-specific optimizations
+   - Pre-rendering strategies implemented
 
 2. **Environment Setup**
    - Memory Bank structure established
@@ -75,11 +87,17 @@ Implementation progress of Next.js 15+ framework:
 
 Prioritized implementation tasks:
 
-1. **Next.js 15+ Setup**
+1. **Network Boundary Implementation**
+   - Establish 'use client' entry points
+   - Configure module import strategies
+   - Implement cross-boundary type safety
+   - Set up server action patterns
+
+2. **Next.js 15+ Setup**
    - Initialize project with Server Component architecture
-   - Configure development environment for optimal rendering
-   - Set up error boundaries for both Server and Client Components
-   - Implement monitoring with rendering-specific metrics
+   - Configure environment-specific bundling
+   - Set up error boundaries for both environments
+   - Implement monitoring with boundary-aware metrics
 
 2. **Component Architecture Implementation**
    - Establish Server Component patterns
@@ -103,7 +121,13 @@ Prioritized implementation tasks:
 
 Current decision points under consideration:
 
-1. **Framework Decisions**
+1. **Network Boundary Decisions**
+   - Module entry point strategies
+   - Import chain optimization
+   - Cross-boundary data flow
+   - Type safety implementation
+
+2. **Framework Decisions**
    - Server vs Client Component boundaries
    - Static vs Dynamic vs Streaming rendering choices
    - Data fetching strategies in Server Components

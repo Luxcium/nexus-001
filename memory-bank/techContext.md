@@ -141,41 +141,93 @@ Next.js development approach:
 
 Framework-specific standards:
 
-1. **Server Component Standards**
-   - Default rendering approach
-   - Server-side execution guarantees
-   - Direct backend access patterns
-   - Secure data handling
-   - Environment variable usage
-   - Static/Dynamic rendering choices
-   - Streaming implementation
+1. **Understanding 'use client'**
+   - Definition: Directive marking boundary between server and client code
+   - Purpose: Enables unified component model across network boundary
+   - Implementation: Added at file level to mark client entry points
+   - Behavior:
+     - Marks module and its imports for client-side execution
+     - Creates reference for server-side imports
+     - Enables type-safe cross-boundary communication
 
-2. **Client Component Standards**
-   - 'use client' directive implementation
-   - Browser API integration
-   - Event handling patterns
-   - State management approaches
-   - Hydration optimization
-   - Performance considerations
-   - Bundle size management
+2. **Server/Client Environment Characteristics**
+   - Server Environment:
+     - Direct file system access
+     - Database connections
+     - API credential security
+     - Pre-rendering capabilities
+     - Data source proximity
+   - Client Environment:
+     - DOM access
+     - Browser API availability
+     - Instant interaction handling
+     - Local state management
+     - User-specific functionality
 
-3. **Component Composition Standards**
-   - Server-to-Client data flow
-   - Props-based integration
-   - Children composition patterns
-   - Error boundary implementation
-   - Progressive enhancement
-   - Fallback strategies
-   - Interactivity optimization
+3. **Component Composition Patterns**
+   - Server Components:
+     - Default rendering approach
+     - Server-side execution guarantees
+     - Direct backend access patterns
+     - Secure data handling
+     - Environment variable usage
+     - Static/Dynamic rendering choices
+     - Streaming implementation
 
-4. **Best Practices**
-   - Server-first architecture
-   - Minimal client-side JavaScript
-   - Optimal component splitting
-   - Performance monitoring
-   - Error management
-   - Testing coverage
-   - Documentation standards
+4. **Cross-Boundary Integration**
+   - Server-to-Client:
+     - Props-based data passing
+     - Component reference handling
+     - Type-safe communication
+   - Client-to-Server:
+     - Server actions implementation
+     - Network boundary management
+     - Error handling strategies
+
+5. **Client Component Standards**
+   - Entry Point Definition:
+     - Strategic 'use client' placement
+     - Module import behavior
+     - Bundle optimization
+   - Implementation:
+     - Browser API integration
+     - Event handling patterns
+     - State management approaches
+     - Hydration optimization
+   - Performance:
+     - Pre-rendering strategies
+     - Bundle size management
+     - Loading experience optimization
+
+6. **Component Composition Standards**
+   - Nesting Patterns:
+     - Server components as props
+     - Client component boundaries
+     - Context provider integration
+   - Data Flow:
+     - Server-to-Client transmission
+     - Props-based integration
+     - Children composition patterns
+   - Optimization:
+     - Single-pass rendering
+     - Waterfall prevention
+     - Progressive enhancement
+     - Fallback strategies
+
+7. **Best Practices**
+   - Architecture:
+     - Server-first approach
+     - Network boundary management
+     - Environment-specific optimization
+   - Performance:
+     - Minimal client-side JavaScript
+     - Pre-rendering optimization
+     - Component splitting strategy
+   - Development:
+     - Type-safe communication
+     - Error management
+     - Testing coverage
+     - Documentation standards
 
 ## Error Handling
 

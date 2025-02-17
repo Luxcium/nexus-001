@@ -41,23 +41,46 @@ The system architecture is designed to support efficient Next.js 15+ development
 
 The system implements patterns that support effective Next.js 15+ development:
 
-1. **Server Component Patterns**
+1. **Bundling Patterns**
+   - Module dependency management
+   - Environment-specific code splitting
+   - Tree-shaking optimization
+   - Route-based code organization
+
+2. **Server Component Patterns**
    - Default rendering strategy implementation
    - Direct data access and API integration
    - Secure sensitive data handling
    - Server-side computation optimization
+   - Pre-rendering and caching strategies
+   - Environment variable access patterns
+   - Database connection management
 
-2. **Client Component Patterns**
-   - Explicit 'use client' directive usage
-   - Strategic interactivity implementation
-   - Browser API integration
-   - State management optimization
+3. **Client Component Patterns**
+   - File-level 'use client' directive placement
+   - Module import chain management
+   - Entry point optimization
+   - Browser API integration strategies
+   - User interaction handling
+   - Local state management
+   - DOM manipulation patterns
 
-3. **Composition Patterns**
-   - Server-to-Client Component props passing
-   - Child composition for Client Components
-   - Error boundary implementation
-   - Progressive enhancement strategy
+4. **Network Boundary Patterns**
+   - Type-safe cross-boundary communication
+   - Server-to-Client reference handling
+   - Client-to-Server action management
+   - Data serialization strategies
+   - Error handling across boundaries
+   - Performance optimization techniques
+
+5. **Composition Patterns**
+   - Server Component prop passing
+   - Client Component nesting rules
+   - Context provider integration
+   - Error boundary placement
+   - Single-pass rendering optimization
+   - Waterfall prevention strategies
+   - Progressive enhancement implementation
 
 2. **Error Handling Patterns**
    - Error boundaries
@@ -76,22 +99,58 @@ The system implements patterns that support effective Next.js 15+ development:
 The system implements a structured component hierarchy optimized for Next.js 15+:
 
 1. **Server Components (Default)**
-   - Static pages and layouts
-   - Data fetching components
-   - Secure computation components
-   - Server-side error handlers
+   - Route Entry Points:
+     - Static pages and layouts
+     - Dynamic route handlers
+     - API endpoints
+   - Data Components:
+     - Database query components
+     - API integration components
+     - File system handlers
+   - Computation Components:
+     - Data transformation logic
+     - Business rule processors
+     - Secure operation handlers
+   - Pre-rendering Components:
+     - Static content generators
+     - Cache management components
+     - Build-time optimizers
 
 2. **Client Components (Interactive)**
-   - Interactive UI elements
-   - State management components
-   - Browser API integrations
-   - Client-side error boundaries
+   - User Interface Components:
+     - Interactive UI elements
+     - Form handling components
+     - Animation controllers
+   - State Components:
+     - Local state managers
+     - Context providers
+     - Effect handlers
+   - Browser Integration:
+     - DOM event handlers
+     - Browser API wrappers
+     - Storage managers
+   - Error Management:
+     - Client-side error boundaries
+     - Fallback UI components
+     - Recovery handlers
 
 3. **Composition Components**
-   - Server-Client bridges
-   - Shared utility components
-   - Performance optimization wrappers
-   - Error boundary containers
+   - Integration Components:
+     - Server-Client bridges
+     - Props passage handlers
+     - Reference management
+   - Optimization Components:
+     - Performance wrappers
+     - Loading boundaries
+     - Streaming handlers
+   - Utility Components:
+     - Shared functionality
+     - Common patterns
+     - Reusable logic
+   - Error Components:
+     - Boundary containers
+     - Recovery handlers
+     - Fallback providers
 
 2. **Development Components**
    - Error handlers

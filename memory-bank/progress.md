@@ -66,6 +66,14 @@ Next.js 15+ implementation milestones:
    - [x] Active context aligned with component patterns
    - [x] Progress tracking established
 
+2. **Network Boundary Documentation**
+   - [x] 'use client' directive patterns defined
+   - [x] Bundling concepts documented
+   - [x] Environment characteristics outlined
+   - [x] Cross-boundary communication explained
+   - [x] Module import behavior documented
+   - [x] Component composition rules established
+
 2. **Rendering Strategy Documentation**
    - [x] Server Component patterns defined
    - [x] Client Component guidelines established
@@ -90,7 +98,16 @@ Next.js 15+ implementation milestones:
 
 Active development initiatives:
 
-1. **Next.js 15+ Tasks**
+1. **Network Boundary Implementation**
+   - [ ] Establish 'use client' entry points
+   - [ ] Configure module import chains
+   - [ ] Implement type-safe cross-boundary communication
+   - [ ] Set up component reference handling
+   - [ ] Configure server action patterns
+   - [ ] Optimize bundling strategies
+   - [ ] Implement proper error handling
+
+2. **Next.js 15+ Tasks**
    - [ ] Initialize project with Server Component architecture
    - [ ] Configure development environment for rendering strategies
    - [ ] Set up component-specific error boundaries
@@ -123,7 +140,14 @@ Active development initiatives:
 
 Current implementation challenges:
 
-1. **Rendering Strategy Integration**
+1. **Network Boundary Integration**
+   - Module import chain optimization needed
+   - Cross-boundary type safety implementation required
+   - Component reference handling refinement needed
+   - Server action pattern establishment pending
+   - Bundle optimization strategy needed
+
+2. **Rendering Strategy Integration**
    - Server Component optimization needed
    - Client Component minimization required
    - Component composition refinement needed
@@ -152,7 +176,16 @@ Current implementation challenges:
 
 Planned development initiatives:
 
-1. **Next.js 15+ Setup**
+1. **Network Boundary Setup**
+   - Establish 'use client' implementation patterns
+   - Configure cross-boundary communication
+   - Set up type-safe module imports
+   - Implement server actions
+   - Optimize bundle splitting
+   - Configure reference handling
+   - Document boundary patterns
+
+2. **Next.js 15+ Setup**
    - Initialize Server-first architecture
    - Configure rendering strategies
    - Implement component-specific error handling
