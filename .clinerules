@@ -318,6 +318,35 @@ The workflow optimization process focuses on maximizing developer productivity t
 - Every heading in a Markdown document must be followed immediately by one or more non-empty paragraphs.
 - Before any subsequent heading appears, ensure that a heading is accompanied by descriptive content.
 - These rules apply to all project documentation files to prevent empty sections and ensure comprehensive documentation.
+- Ordered lists must use the correct numbering sequence (1, 2, 3, etc.) regardless of the actual numbers used in the Markdown source.
+- Unordered lists should use consistent markers (either all `-`, `*`, or `+`).
+
+## Validation Process
+
+To ensure the quality and consistency of our documentation and code, follow these steps:
+
+1. Pre-modification Check:
+   - Run linting tools on the files you plan to modify.
+   - Document the number and type of existing errors.
+
+2. Make Your Changes:
+   - Implement the required modifications.
+   - Ensure your changes adhere to the project's coding and documentation standards.
+
+3. Post-modification Check:
+   - Re-run linting tools on the modified files.
+   - Compare the new error count with the pre-modification count.
+   - If new errors were introduced, address them immediately.
+
+4. Documentation Update:
+   - Record any significant changes or error resolutions in the appropriate Memory Bank files.
+   - Update activeContext.md with the current state of the project.
+
+5. Final Verification:
+   - Perform a final linting check on all modified files.
+   - Ensure all documentation accurately reflects the current project state.
+
+Always document the number of errors before and after modifications, and include this information in your commit messages or Memory Bank updates.
 
 ## Summary of Approach
 
