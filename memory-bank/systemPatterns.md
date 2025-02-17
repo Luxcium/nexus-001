@@ -11,13 +11,19 @@ Key aspects include:
 
 ## Architecture Overview
 
-The system architecture is designed to support efficient Next.js development through:
+The system architecture is designed to support efficient Next.js 15+ development through:
 
-1. **Next.js Architecture**
-   - Component hierarchy
-   - Routing system
-   - State management
-   - API integration
+1. **Next.js 15+ Architecture**
+   - Server-first component hierarchy
+   - Advanced routing system with Server Components
+   - Distributed state management between Server and Client
+   - API integration through Server Components
+
+2. **Rendering Architecture**
+   - Static Rendering (Default): Build-time pre-rendering
+   - Dynamic Rendering: Request-time rendering
+   - Streaming: Progressive chunk-based rendering
+   - Hybrid rendering strategies
 
 2. **Development Infrastructure**
    - Error handling system
@@ -33,13 +39,25 @@ The system architecture is designed to support efficient Next.js development thr
 
 ## Design Patterns
 
-The system implements patterns that support effective Next.js development:
+The system implements patterns that support effective Next.js 15+ development:
 
-1. **React/Next.js Patterns**
-   - Component composition
-   - State management
-   - Server-side rendering
-   - Client-side navigation
+1. **Server Component Patterns**
+   - Default rendering strategy implementation
+   - Direct data access and API integration
+   - Secure sensitive data handling
+   - Server-side computation optimization
+
+2. **Client Component Patterns**
+   - Explicit 'use client' directive usage
+   - Strategic interactivity implementation
+   - Browser API integration
+   - State management optimization
+
+3. **Composition Patterns**
+   - Server-to-Client Component props passing
+   - Child composition for Client Components
+   - Error boundary implementation
+   - Progressive enhancement strategy
 
 2. **Error Handling Patterns**
    - Error boundaries
@@ -55,13 +73,25 @@ The system implements patterns that support effective Next.js development:
 
 ## Component Structure
 
-The system implements a structured component hierarchy:
+The system implements a structured component hierarchy optimized for Next.js 15+:
 
-1. **Next.js Components**
-   - Pages and layouts
-   - Shared components
-   - UI components
-   - Error components
+1. **Server Components (Default)**
+   - Static pages and layouts
+   - Data fetching components
+   - Secure computation components
+   - Server-side error handlers
+
+2. **Client Components (Interactive)**
+   - Interactive UI elements
+   - State management components
+   - Browser API integrations
+   - Client-side error boundaries
+
+3. **Composition Components**
+   - Server-Client bridges
+   - Shared utility components
+   - Performance optimization wrappers
+   - Error boundary containers
 
 2. **Development Components**
    - Error handlers
@@ -80,13 +110,25 @@ The system implements a structured component hierarchy:
 
 ## Code Conventions
 
-Conventions supporting Next.js development:
+Conventions supporting Next.js 15+ development:
 
-1. **Next.js Code Standards**
-   - Component structure
-   - Page organization
-   - Route handling
-   - Data fetching
+1. **Server Component Standards**
+   - Default server-side rendering
+   - Direct backend integration
+   - Environment variable usage
+   - Security-first implementation
+
+2. **Client Component Standards**
+   - 'use client' directive placement
+   - Minimal client-side JavaScript
+   - Browser API integration
+   - Event handling patterns
+
+3. **Component Composition Standards**
+   - Server-to-Client data flow
+   - Props-based integration
+   - Error boundary placement
+   - Performance optimization patterns
 
 2. **Error Handling Practices**
    - Error boundary implementation

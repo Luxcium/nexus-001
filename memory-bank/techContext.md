@@ -11,7 +11,7 @@ Key Focus Areas:
 
 ## Development Environment
 
-Environment optimized for Next.js development:
+Environment optimized for Next.js 15+ development:
 
 1. **Operating System Infrastructure**
    - Primary: Fedora Linux
@@ -19,11 +19,19 @@ Environment optimized for Next.js development:
    - Cross-platform compatibility
    - Shell: /bin/bash
 
-2. **Next.js Environment**
-   - Node.js runtime
+2. **Next.js 15+ Environment**
+   - Node.js runtime (LTS version)
    - npm package manager
-   - Next.js framework
-   - React library
+   - Next.js 15+ framework
+   - React 18+ library
+   - Server Component runtime
+   - Client Component hydration system
+
+3. **Rendering Infrastructure**
+   - Server Component compilation
+   - Client Component bundling
+   - Static/Dynamic rendering systems
+   - Streaming render pipeline
 
 3. **Development Tools**
    - VSCode IDE
@@ -129,27 +137,45 @@ Next.js development approach:
    - Error boundaries
    - Testing structure
 
-### React/Next.js
+### React/Next.js 15+
 
 Framework-specific standards:
 
-1. **Component Standards**
-   - Page components
-   - Shared components
-   - Error components
-   - Layout systems
+1. **Server Component Standards**
+   - Default rendering approach
+   - Server-side execution guarantees
+   - Direct backend access patterns
+   - Secure data handling
+   - Environment variable usage
+   - Static/Dynamic rendering choices
+   - Streaming implementation
 
-2. **Development Patterns**
-   - Server-side rendering
-   - Client-side navigation
-   - Data fetching
-   - Error handling
+2. **Client Component Standards**
+   - 'use client' directive implementation
+   - Browser API integration
+   - Event handling patterns
+   - State management approaches
+   - Hydration optimization
+   - Performance considerations
+   - Bundle size management
 
-3. **Best Practices**
-   - Performance optimization
-   - Code splitting
+3. **Component Composition Standards**
+   - Server-to-Client data flow
+   - Props-based integration
+   - Children composition patterns
+   - Error boundary implementation
+   - Progressive enhancement
+   - Fallback strategies
+   - Interactivity optimization
+
+4. **Best Practices**
+   - Server-first architecture
+   - Minimal client-side JavaScript
+   - Optimal component splitting
+   - Performance monitoring
    - Error management
    - Testing coverage
+   - Documentation standards
 
 ## Error Handling
 
