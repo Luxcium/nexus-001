@@ -23,16 +23,18 @@ Key Focus:
 
 Project template is initialized and ready for development. Current focus is on:
 
-1. **Tailwind CSS v4.0 Implementation**
-   - CSS-first configuration using `@theme`
-   - Container query-based responsive design
+1. **Tailwind CSS v4.0+ Implementation**
+   - [!TAILWIND-V4] CSS-first configuration using `@theme`
+   - [!TAILWIND-V4] Container query-based responsive design
    - Modern CSS features integration
      - Cascade layers
-     - Color manipulation
-     - Custom properties
-   - Performance optimization with new engine
-   - Zero-configuration content detection
-   - Component-level style patterns
+     - [!TAILWIND-V4] Color manipulation via `color-mix()`
+     - [!TAILWIND-V4] Custom properties for animations
+   - [!PERFORMANCE] Performance optimization with Rust-based engine
+   - [!TAILWIND-V4] Zero-configuration content detection
+   - [!TAILWIND-V4] Component-level style patterns
+   - [!PERFORMANCE] Incremental builds for faster development
+   - [!MIGRATION] Updating deprecated utilities and class names
 
 2. **UI Component Integration**
    - shadcn/ui with Tailwind v4.0

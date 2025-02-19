@@ -64,11 +64,11 @@ Environment optimized for Next.js 15+ development:
 
 ## UI Framework Stack
 
-The project utilizes modern UI frameworks and component libraries with Tailwind CSS v4.0:
+The project utilizes modern UI frameworks and component libraries with Tailwind CSS v4.0+:
 
 1. **Primary UI Frameworks**
-   - Tailwind CSS v4.0 (Core styling)
-     - CSS-first configuration via `@theme`
+   - Tailwind CSS v4.0+ (Core styling)
+     - [!TAILWIND-V4] CSS-first configuration via `@theme`
      - High-performance Rust-based engine
      - Modern CSS features (cascade layers, container queries)
      - Zero-configuration content detection
@@ -76,7 +76,7 @@ The project utilizes modern UI frameworks and component libraries with Tailwind 
    - shadcn/ui (Primary component library)
      - Built on Radix UI primitives
      - Copy-paste implementation
-     - Full Tailwind v4.0 integration
+     - Full Tailwind v4.0+ integration
      - Accessible components
      - TypeScript support
 
@@ -86,13 +86,24 @@ The project utilizes modern UI frameworks and component libraries with Tailwind 
    - Custom components as needed
 
 3. **CSS Architecture**
-   - CSS-first configuration using `@theme`
+   - [!TAILWIND-V4] CSS-first configuration using `@theme`
    - Native cascade layers for specificity management
-   - Container queries for component-level responsiveness
-   - Modern color features like `color-mix()`
+   - [!TAILWIND-V4] Container queries for component-level responsiveness
+   - [!TAILWIND-V4] Modern color features like `color-mix()`
    - Composable variants and arbitrary values
-   - Shorthand opacity syntax
-   - Advanced gradient and 3D transform utilities
+   - [!TAILWIND-V4] Shorthand opacity syntax
+   - [!TAILWIND-V4] Advanced gradient and 3D transform utilities
+
+4. **Build Process**
+   - [!PERFORMANCE] Leverages new high-performance build engine
+   - [!TAILWIND-V4] Utilizes incremental builds for faster development
+   - [!TAILWIND-V4] Implements zero-configuration content detection
+   - Unified toolchain reduces dependency complexity
+
+5. **Migration Considerations**
+   - [!MIGRATION] Refer to memory-bank/tailwind-v4.md for breaking changes
+   - [!MIGRATION] Update deprecated utilities and class names
+   - [!PERFORMANCE] Monitor build times and CSS bundle size
 
 ## Project Structure
 

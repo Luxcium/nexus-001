@@ -39,31 +39,44 @@ The system architecture is designed to support efficient Next.js 15+ development
 
 ## CSS Architecture Patterns
 
-The system implements modern CSS patterns using Tailwind CSS v4.0:
+The system implements modern CSS patterns using Tailwind CSS v4.0+:
 
 1. **CSS-First Configuration**
-   - Design tokens defined via `@theme` directive
+   - [!TAILWIND-V4] Design tokens defined via `@theme` directive
    - Native cascade layers for specificity control
-   - Registered custom properties for animations
+   - [!TAILWIND-V4] Registered custom properties for animations
    - Modern CSS features integration
-   - Zero-configuration approach
-   - Performance-optimized compilation
+   - [!TAILWIND-V4] Zero-configuration approach
+   - [!PERFORMANCE] Performance-optimized compilation
 
 2. **Component-Level Responsiveness**
-   - Container queries for modular design
-   - `@container` syntax implementation
+   - [!TAILWIND-V4] Container queries for modular design
+   - [!TAILWIND-V4] `@container` syntax implementation
    - Composable breakpoint patterns
    - Adaptive component layouts
    - Responsive state handling
    - Dynamic scaling strategies
 
 3. **Modern Style Patterns**
-   - Color manipulation via `color-mix()`
-   - Advanced gradient implementations
-   - 3D transform utilities
+   - [!TAILWIND-V4] Color manipulation via `color-mix()`
+   - [!TAILWIND-V4] Advanced gradient implementations
+   - [!TAILWIND-V4] 3D transform utilities
    - Arbitrary value support
-   - Shorthand opacity syntax
+   - [!TAILWIND-V4] Shorthand opacity syntax
    - Enhanced animation capabilities
+
+4. **Build and Performance Optimization**
+   - [!PERFORMANCE] Rust-based high-performance engine
+   - [!TAILWIND-V4] Incremental builds for faster development
+   - [!TAILWIND-V4] Automatic content detection
+   - [!PERFORMANCE] Unified toolchain with Lightning CSS
+   - [!PERFORMANCE] Optimized bundle size management
+
+5. **Migration and Compatibility**
+   - [!MIGRATION] Breaking changes handled (see memory-bank/tailwind-v4.md)
+   - [!MIGRATION] Deprecated utility replacements
+   - Browser compatibility considerations
+   - Progressive enhancement strategies
 
 ## Component Library Patterns
 

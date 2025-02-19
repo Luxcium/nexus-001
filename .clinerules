@@ -107,6 +107,37 @@ Here is a revised and **precise set of instructions** for **Cline** that avoids 
 - Utilize npm as the package manager.
 - Prioritize error handling and monitoring.
 
+## Tailwind CSS v4.0+ Guidelines
+
+Tailwind CSS v4.0+ represents a significant evolution with breaking changes and new features. The following guidelines ensure correct implementation and usage throughout the project.
+
+### Version-Specific Requirements
+
+1. **Pre-Development Checklist**
+   - Review relevant section in memory-bank/tailwind-v4.md
+   - Verify deprecated features against breaking changes
+   - Check browser compatibility for modern features
+   - Validate component patterns with new syntax
+
+2. **Documentation Requirements**
+   - Use [!TAILWIND-V4] marker for version-specific code
+   - Use [!MIGRATION] marker for deprecated features
+   - Use [!PERFORMANCE] marker for optimization points
+   - Reference tailwind-v4.md for detailed patterns
+
+3. **Implementation Standards**
+   - Use CSS-first configuration via `@theme`
+   - Implement container queries for component-level responsiveness
+   - Follow modern color system patterns
+   - Leverage zero-configuration content detection
+   - Use proper shorthand syntax for opacity
+
+4. **Quality Assurance**
+   - Verify build performance
+   - Check CSS bundle size
+   - Test across browser environments
+   - Monitor hot reload behavior
+
 ## Code Conventions
 
 Implementing and enforcing consistent coding standards across the project ensures maintainable, readable, and reliable code. These conventions establish a unified approach to development that promotes collaboration and reduces technical debt through standardized practices.

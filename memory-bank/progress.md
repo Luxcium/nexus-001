@@ -90,20 +90,24 @@ The project operates through:
 
 Next.js 15+ implementation milestones:
 
-1. **Modern CSS Stack Selection**
-   - [x] Selected Tailwind CSS v4.0 as core styling framework
-     - [x] CSS-first configuration via `@theme`
-     - [x] High-performance Rust-based engine
-     - [x] Modern CSS features support
-     - [x] Zero-configuration detection
-   - [x] Chosen modern component libraries
-     - [x] shadcn/ui as primary component library
+1. **Tailwind CSS v4.0+ Implementation**
+   - [x] Selected and documented Tailwind CSS v4.0+ as core styling framework
+     - [x] [!TAILWIND-V4] CSS-first configuration via `@theme`
+     - [x] [!PERFORMANCE] High-performance Rust-based engine
+     - [x] [!TAILWIND-V4] Modern CSS features support (color-mix, container queries)
+     - [x] [!TAILWIND-V4] Zero-configuration detection
+     - [x] [!PERFORMANCE] Incremental builds for faster development
+   - [x] Chosen and integrated modern component libraries
+     - [x] shadcn/ui as primary component library with Tailwind v4.0+ integration
      - [x] Headless UI for supplementary components
      - [x] Radix UI primitives as component foundation
-   - [x] Documented implementation decisions
+   - [x] Comprehensive documentation updates
+     - [x] Created dedicated Tailwind v4.0+ guide (memory-bank/tailwind-v4.md)
      - [x] Updated UI framework stack in techContext.md
-     - [x] Added CSS architecture patterns to systemPatterns.md
-     - [x] Updated current focus in activeContext.md
+     - [x] Enhanced CSS architecture patterns in systemPatterns.md
+     - [x] Revised current focus in activeContext.md
+     - [x] Added Tailwind v4.0+ guidelines to .clinerules
+   - [x] [!MIGRATION] Identified deprecated features and utilities for update
 
 2. **Project Initialization**
    - [x] Next.js template created
