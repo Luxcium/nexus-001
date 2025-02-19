@@ -72,6 +72,23 @@ Here is a revised and **precise set of instructions** for **Cline** that avoids 
 - tests/ contains test files.
 - The structure is modular and does not enforce any specific monorepo constraints.
 
+### Memory Bank Structure
+
+├── memory-bank
+│   ├── activeContext.md
+│   ├── component-inventory.md
+│   ├── productContext.md
+│   ├── progress.md
+│   ├── projectbrief.md
+│   ├── shadcn-cli-guide.md
+│   ├── shadcn-ui-overview.md
+│   ├── systemPatterns.md
+│   ├── tailwind-v4.md
+│   ├── techContext.md
+│   ├── testing-instructions.md
+│   └── test-results-template.md
+└── .clinerules
+
 ## Documentation Patterns
 
 - All changes must be reflected in memory-bank/.
