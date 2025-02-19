@@ -64,9 +64,13 @@ Environment optimized for Next.js 15+ development:
 
 ## UI Framework Stack
 
-The project utilizes modern UI frameworks and component libraries with Tailwind CSS v4.0+:
+The project utilizes modern UI frameworks and component libraries with Tailwind CSS v4.0+ and shadcn/ui:
 
 1. **Primary UI Frameworks**
+   - shadcn/ui (Component library and distribution platform)
+     - CLI-based component management
+     - Open code approach for customization
+     - Integration with Tailwind CSS v4.0+
    - Tailwind CSS v4.0+ (Core styling)
      - [!TAILWIND-V4] CSS-first configuration via `@theme`
      - High-performance Rust-based engine

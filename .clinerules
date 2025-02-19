@@ -107,9 +107,29 @@ Here is a revised and **precise set of instructions** for **Cline** that avoids 
 - Utilize npm as the package manager.
 - Prioritize error handling and monitoring.
 
-## Tailwind CSS v4.0+ Guidelines
+## Tailwind CSS v4.0+ and shadcn/ui Guidelines
 
-Tailwind CSS v4.0+ represents a significant evolution with breaking changes and new features. The following guidelines ensure correct implementation and usage throughout the project.
+Tailwind CSS v4.0+ represents a significant evolution with breaking changes and new features. The following guidelines ensure correct implementation and usage throughout the project, including the integration of shadcn/ui.
+
+### shadcn CLI Usage
+
+1. **Initialization**
+   - Use `npx shadcn@latest init` for project setup.
+   - Document configuration choices in `components.json`.
+
+2. **Adding Components**
+   - Prefer `npx shadcn@latest add [component]` for component addition.
+   - Consider direct method only for specific customization needs.
+   - Document each component addition in `component-inventory.md`.
+
+3. **Build Process**
+   - Include `npx shadcn@latest build` in the project's build script.
+   - Specify output directory in `package.json` scripts.
+
+4. **Decision Making**
+   - Evaluate each new component addition individually.
+   - Consider project-specific requirements when choosing between CLI and direct method.
+   - Document decisions in `activeContext.md`.
 
 ### Version-Specific Requirements
 
