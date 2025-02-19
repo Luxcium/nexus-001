@@ -62,6 +62,38 @@ Environment optimized for Next.js 15+ development:
    - Debug utilities
    - Testing framework
 
+## UI Framework Stack
+
+The project utilizes modern UI frameworks and component libraries with Tailwind CSS v4.0:
+
+1. **Primary UI Frameworks**
+   - Tailwind CSS v4.0 (Core styling)
+     - CSS-first configuration via `@theme`
+     - High-performance Rust-based engine
+     - Modern CSS features (cascade layers, container queries)
+     - Zero-configuration content detection
+     - Unified toolchain with Lightning CSS
+   - shadcn/ui (Primary component library)
+     - Built on Radix UI primitives
+     - Copy-paste implementation
+     - Full Tailwind v4.0 integration
+     - Accessible components
+     - TypeScript support
+
+2. **Supporting Libraries**
+   - Headless UI (Additional components)
+   - Radix UI Primitives (Base components)
+   - Custom components as needed
+
+3. **CSS Architecture**
+   - CSS-first configuration using `@theme`
+   - Native cascade layers for specificity management
+   - Container queries for component-level responsiveness
+   - Modern color features like `color-mix()`
+   - Composable variants and arbitrary values
+   - Shorthand opacity syntax
+   - Advanced gradient and 3D transform utilities
+
 ## Project Structure
 
 Template-based architecture supporting Next.js development:

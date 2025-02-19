@@ -90,7 +90,22 @@ The project operates through:
 
 Next.js 15+ implementation milestones:
 
-1. **Project Initialization**
+1. **Modern CSS Stack Selection**
+   - [x] Selected Tailwind CSS v4.0 as core styling framework
+     - [x] CSS-first configuration via `@theme`
+     - [x] High-performance Rust-based engine
+     - [x] Modern CSS features support
+     - [x] Zero-configuration detection
+   - [x] Chosen modern component libraries
+     - [x] shadcn/ui as primary component library
+     - [x] Headless UI for supplementary components
+     - [x] Radix UI primitives as component foundation
+   - [x] Documented implementation decisions
+     - [x] Updated UI framework stack in techContext.md
+     - [x] Added CSS architecture patterns to systemPatterns.md
+     - [x] Updated current focus in activeContext.md
+
+2. **Project Initialization**
    - [x] Next.js template created
    - [x] Base structure established
    - [x] Development environment prepared

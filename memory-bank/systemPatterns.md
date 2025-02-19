@@ -37,6 +37,62 @@ The system architecture is designed to support efficient Next.js 15+ development
    - Performance optimization
    - Error resilience
 
+## CSS Architecture Patterns
+
+The system implements modern CSS patterns using Tailwind CSS v4.0:
+
+1. **CSS-First Configuration**
+   - Design tokens defined via `@theme` directive
+   - Native cascade layers for specificity control
+   - Registered custom properties for animations
+   - Modern CSS features integration
+   - Zero-configuration approach
+   - Performance-optimized compilation
+
+2. **Component-Level Responsiveness**
+   - Container queries for modular design
+   - `@container` syntax implementation
+   - Composable breakpoint patterns
+   - Adaptive component layouts
+   - Responsive state handling
+   - Dynamic scaling strategies
+
+3. **Modern Style Patterns**
+   - Color manipulation via `color-mix()`
+   - Advanced gradient implementations
+   - 3D transform utilities
+   - Arbitrary value support
+   - Shorthand opacity syntax
+   - Enhanced animation capabilities
+
+## Component Library Patterns
+
+The system implements specific patterns for shadcn/ui and supporting UI libraries:
+
+1. **shadcn/ui Integration with Tailwind v4.0**
+   - Copy-paste implementation approach
+   - Individual component installation
+   - Tailwind CSS integration
+   - Radix UI primitive foundation
+   - Accessibility-first components
+   - Server/Client component separation
+   - TypeScript type safety
+
+2. **Component Customization**
+   - Tailwind CSS modifications
+   - Theme configuration
+   - Component variants
+   - Style overrides
+   - Animation patterns
+   - Responsive design
+
+3. **Library Composition**
+   - shadcn/ui primary components
+   - Headless UI supplementary components
+   - Radix UI primitive integration
+   - Custom component development
+   - Component composition strategies
+
 ## Design Patterns
 
 The system implements patterns that support effective Next.js 15+ development:
