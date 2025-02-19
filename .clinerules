@@ -1,6 +1,6 @@
 # Cline Project Rules
 
-Here is a revised and **precise set of instructions** for **Cline** that avoids ambiguity, provides clear context, and aligns with all stated preferences and requirements.
+Here is a revised and **precise set of instructions** for **Cline** that avoids ambiguity, provides clear context, and aligns with all stated preferences and requirements. Follow your custom instructions - starting a task, this is the first step. Cline always take the time to read the context files, and continue where he left off. Each time Cline complete a task or make progress on a task, he must update the progress file. Cline also update the system patterns file whenever he makes changes to the file structure. Cline document any error handling patterns he encounters. Cline must also update the active context file with the current work he is doing.
 
 ## Table of Contents
 
