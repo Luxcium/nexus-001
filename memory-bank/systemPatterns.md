@@ -391,6 +391,58 @@ The system implements standardized patterns for version control using Convention
    - Track commit patterns in Memory Bank
    - Monitor error patterns in commit operations
 
+## Sequential Thinking Patterns
+
+The system implements structured patterns for problem-solving using the Sequential Thinking MCP server:
+
+1. **Thought Process Structure**
+   - Linear Progression:
+     - Clear initial problem definition
+     - Step-by-step decomposition
+     - Context-aware analysis
+     - Solution hypothesis generation
+   - Branching Patterns:
+     - Alternative path exploration
+     - Decision tree development
+     - Solution comparison
+     - Error mitigation strategies
+
+2. **Problem-Solving Frameworks**
+   - Architecture Planning:
+     - System design breakdown
+     - Component interaction analysis
+     - Integration strategy development
+     - Error handling design
+   - Implementation Planning:
+     - Feature decomposition
+     - Task sequencing
+     - Dependency mapping
+     - Risk assessment
+
+3. **Revision Patterns**
+   - Iterative Refinement:
+     - Previous thought reconsideration
+     - New context incorporation
+     - Solution adjustment
+     - Error pattern resolution
+   - Branch Management:
+     - Alternative solution exploration
+     - Parallel path analysis
+     - Option comparison
+     - Decision validation
+
+4. **Documentation Standards**
+   - Thought Recording:
+     - Clear step numbering
+     - Context preservation
+     - Decision rationale
+     - Error consideration
+   - Progress Tracking:
+     - Completion assessment
+     - Branch documentation
+     - Solution verification
+     - Error pattern documentation
+
 ## Modularity and Scalability
 
 Architecture supporting flexible Next.js development:

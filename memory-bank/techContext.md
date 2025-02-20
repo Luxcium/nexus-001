@@ -222,6 +222,58 @@ Tooling ecosystem supporting Next.js:
    - Testing frameworks
    - Error validation
 
+## Browser Automation Tools
+
+1. **Puppeteer MCP Server Integration**
+   - Server: github.com/modelcontextprotocol/servers/tree/main/src/puppeteer
+   - Configuration: Managed via cline_mcp_settings.json
+   - Headless Operation: Using xvfb-run for X server simulation
+   - Error Handling: Environment-aware setup with fallback options
+   - Integration: Model Context Protocol for browser automation
+
+2. **Automation Capabilities**
+   - Navigation Tools:
+     - puppeteer_navigate: Web page navigation
+     - puppeteer_screenshot: Page/element screenshots
+   - Interaction Tools:
+     - puppeteer_click: Element interaction
+     - puppeteer_fill: Form input automation
+     - puppeteer_select: Dropdown selection
+     - puppeteer_hover: Mouse hover simulation
+   - Script Execution:
+     - puppeteer_evaluate: JavaScript execution in browser context
+
+3. **Use Cases**
+   - Automated Testing:
+     - Visual regression testing
+     - User flow validation
+     - Cross-browser compatibility checks
+   - Content Management:
+     - Web scraping and data extraction
+     - Dynamic content verification
+   - UI/UX Validation:
+     - Component rendering verification
+     - Layout consistency checks
+     - Responsive design testing
+   - Form Automation:
+     - Input field validation
+     - Form submission testing
+     - Error state verification
+
+4. **Integration Standards**
+   - Error Pattern Monitoring:
+     - Browser-specific error handling
+     - Screenshot capture on failure
+     - Console log monitoring
+   - Configuration Management:
+     - Headless mode configuration
+     - Environment-specific setup
+     - Resource optimization
+   - Documentation Requirements:
+     - Test scenario documentation
+     - Error pattern recording
+     - Resolution procedures
+
 ## Language Standards
 
 Technical standards supporting Next.js:
@@ -493,6 +545,60 @@ Next.js performance framework:
    - Optimization tips
    - Best practices
    - Monitoring setup
+
+## Problem-Solving Tools
+
+1. **Sequential Thinking MCP Server Integration**
+   - Server: github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking
+   - Configuration: Managed via cline_mcp_settings.json
+   - Installation: npx-based setup for immediate availability
+   - Integration: Model Context Protocol for structured thinking
+
+2. **Sequential Thinking Capabilities**
+   - Thought Process Management:
+     - Step-by-step problem decomposition
+     - Dynamic thought adjustment
+     - Revision and refinement support
+     - Branch exploration for alternatives
+   - Problem-Solving Features:
+     - Structured analysis
+     - Context maintenance
+     - Solution hypothesis generation
+     - Iterative refinement
+   - Error Management:
+     - Course correction support
+     - Alternative path exploration
+     - Solution verification
+     - Problem scope adjustment
+
+3. **Use Cases**
+   - Complex Problem Analysis:
+     - System architecture planning
+     - Refactoring strategy development
+     - Feature implementation planning
+     - Error resolution approaches
+   - Design Process:
+     - Component structure planning
+     - Interface design methodology
+     - User flow analysis
+     - Error handling strategies
+   - Decision Making:
+     - Technology selection
+     - Architecture choices
+     - Implementation approaches
+     - Error mitigation strategies
+
+4. **Integration Standards**
+   - Documentation Requirements:
+     - Thought process recording
+     - Decision path documentation
+     - Solution evolution tracking
+     - Error pattern documentation
+   - Usage Guidelines:
+     - Clear problem definition
+     - Structured thought progression
+     - Solution verification
+     - Error consideration
 
 ## Security Framework
 
