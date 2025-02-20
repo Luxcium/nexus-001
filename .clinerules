@@ -99,11 +99,100 @@ Here is a revised and **precise set of instructions** for **Cline** that avoids 
 
 ## Version Control
 
+### Git MCP Server Integration
+
+The project uses the Git MCP server for repository management through Model Context Protocol:
+
+- Server Name: github.com/modelcontextprotocol/servers/tree/main/src/git
+- Configuration: Managed via cline_mcp_settings.json
+- Usage Protocol:
+  - Read operations (status, log, diff) require explanation before use
+  - Write operations (commit, add, reset) require explicit permission
+  - All Git operations must be documented in Memory Bank
+  - Error handling patterns must be recorded
+
+### Conventional Commits 1.0.0 Implementation
+
+The project follows the Conventional Commits 1.0.0 specification with additional standardization:
+
+1. **Commit Message Format**:
+
+   ```
+   type(scope)!: emoji [❗] description
+
+   [optional body]
+
+   [optional footer(s)]
+   ```
+
+2. **Required Type-Emoji Mappings**:
+
+   ```
+   feat:     ✨ (sparkles) New features
+   fix:      🐛 (bug) Bug fixes
+   docs:     📚 (books) Documentation changes
+   style:    💄 (lipstick) Code style/formatting
+   refactor: ♻️ (recycle) Code refactoring
+   test:     🧪 (test tube) Test additions/updates
+   chore:    🔧 (wrench) Maintenance tasks
+   perf:     ⚡️ (zap) Performance improvements
+   ci:       👷 (construction worker) CI/CD changes
+   build:    📦 (package) Build system changes
+   ```
+
+3. **Standard Scopes**:
+
+   ```
+   (core)     - Core functionality
+   (docs)     - Documentation systems
+   (test)     - Testing infrastructure
+   (ci)       - CI/CD pipeline
+   (deps)     - Dependencies
+   (mcp)      - MCP server related
+   (memory)   - Memory Bank system
+   ```
+
+4. **Breaking Changes**:
+   - Indicator: ❗(exclamation mark)
+   - Format: `type(scope)!: emoji ❗ description`
+   - Footer: `BREAKING CHANGE: description`
+
+5. **Evolution Protocol**:
+   - New types require team review and documentation
+   - Scope additions must be recorded in Memory Bank
+   - Emoji-type mappings must remain consistent
+   - Pattern changes require full documentation update
+
+### General Version Control Guidelines
+
 - Use Git for version control.
 - Meaningful commit messages are required.
 - Update documentation before committing code changes.
 - Keep changes focused and atomic.
 - Document error-related changes thoroughly.
+
+### Git MCP Tools Usage
+
+1. Read Operations:
+   - git_status: Show working tree status
+   - git_diff_unstaged: Show unstaged changes
+   - git_diff_staged: Show staged changes
+   - git_diff: Compare branches/commits
+   - git_log: View commit history
+   - git_show: Show commit contents
+
+2. Write Operations:
+   - git_commit: Record repository changes
+   - git_add: Stage file contents
+   - git_reset: Unstage changes
+   - git_create_branch: Create new branches
+   - git_checkout: Switch branches
+
+3. Usage Guidelines:
+   - Document intentions before tool use
+   - Monitor and log all operations
+   - Track error patterns
+   - Update Memory Bank after significant operations
 
 ## Development Workflow
 

@@ -21,7 +21,21 @@ Key Focus:
 
 ## Current Focus
 
-Project template is initialized with shadcn/ui, core components are added, and the project is ready for further development. Current focus is on:
+Project template is initialized with shadcn/ui and Git MCP server integration. Core components are added, and the project is ready for further development. Current focus is on:
+
+1. **Git MCP Server Integration**
+   - [!COMPLETED] Git MCP server configured via cline_mcp_settings.json
+   - [!COMPLETED] Server name configured as github.com/modelcontextprotocol/servers/tree/main/src/git
+   - [!COMPLETED] Added comprehensive Git MCP documentation to techContext.md
+   - [!COMPLETED] Updated .clinerules with Git MCP server guidelines
+   - [!COMPLETED] Implemented Conventional Commits 1.0.0 specification
+   - [!COMPLETED] Defined standardized emoji-type mappings
+   - [!COMPLETED] Established initial scope registry
+   - [!COMPLETED] Documented commit message patterns in systemPatterns.md
+   - [!NEXT-STEP] Development team to familiarize with commit message standards
+   - [!NEXT-STEP] Establish workflow for Git operations through MCP tools
+   - [!NEXT-STEP] Monitor and validate commit message compliance
+   - [!NEXT-STEP] Track effectiveness of emoji-type mappings
 
 1. **shadcn/ui Integration**
    - [!COMPLETED] Initialization using `npx shadcn@canary init`

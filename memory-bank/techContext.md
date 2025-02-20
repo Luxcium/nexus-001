@@ -114,10 +114,57 @@ The project utilizes modern UI frameworks and component libraries with Tailwind 
 Template-based architecture supporting Next.js development:
 
 1. **Version Control**
-   - System: Git
-   - Repository management
-   - Branch strategy
-   - Review process
+   - System: Git with MCP Server Integration
+     - Server: github.com/modelcontextprotocol/servers/tree/main/src/git
+     - Configuration: Managed via cline_mcp_settings.json
+     - Integration: Model Context Protocol for Git operations
+
+   - Repository Management
+     - Read Operations
+       - git_status: Repository status
+       - git_log: Commit history
+       - git_diff: Changes comparison
+     - Write Operations
+       - git_commit: Using Conventional Commits 1.0.0
+       - git_add: File staging
+       - git_reset: Unstaging changes
+     - Branch Management
+       - git_create_branch: Branch creation
+       - git_checkout: Branch switching
+     - Error Handling and Monitoring
+       - Error pattern tracking
+       - Operation validation
+       - State verification
+
+   - Commit Message Framework
+     - Standard Structure:
+
+       ```
+       type(scope)!: emoji [❗] description
+
+       [body]
+
+       [footer(s)]
+       ```
+
+     - Type-Emoji Mapping System
+     - Scope Registry Management
+     - Breaking Change Protocols
+     - Validation Rules Implementation
+
+   - Integration Standards
+     - Message Format Validation
+     - Emoji Consistency Checking
+     - Scope Verification
+     - Error Pattern Monitoring
+   - Branch Strategy
+     - Branch Creation via MCP Tools
+     - Checkout Operations
+     - Diff and Status Monitoring
+   - Review Process
+     - Change Tracking
+     - Commit Management
+     - Error Documentation
 
 2. **Next.js Structure**
    - pages/ directory

@@ -335,6 +335,62 @@ Guidelines ensuring sustainable Next.js development:
      - **Documentation:** Clear structure
      - **Performance:** Optimize regularly
 
+## Version Control Patterns
+
+The system implements standardized patterns for version control using Conventional Commits 1.0.0:
+
+1. **Commit Message Structure**
+   - Type with Emoji (Required)
+   - Scope (Optional)
+   - Breaking Change Indicator (Optional)
+   - Description (Required)
+   - Body (Optional)
+   - Footer (Optional)
+
+2. **Standard Types and Emojis**
+
+   ```
+   feat:     ✨ (sparkles) New features
+   fix:      🐛 (bug) Bug fixes
+   docs:     📚 (books) Documentation changes
+   style:    💄 (lipstick) Code style/formatting
+   refactor: ♻️ (recycle) Code refactoring
+   test:     🧪 (test tube) Test additions/updates
+   chore:    🔧 (wrench) Maintenance tasks
+   perf:     ⚡️ (zap) Performance improvements
+   ci:       👷 (construction worker) CI/CD changes
+   build:    📦 (package) Build system changes
+   ```
+
+3. **Scope Definitions**
+
+   ```
+   (core)     - Core functionality
+   (docs)     - Documentation systems
+   (test)     - Testing infrastructure
+   (ci)       - CI/CD pipeline
+   (deps)     - Dependencies
+   (mcp)      - MCP server related
+   (memory)   - Memory Bank system
+   ```
+
+4. **Breaking Change Patterns**
+   - Standard Indicator: ❗(exclamation)
+   - Usage: `type(scope)!: emoji ❗ description`
+   - Footer Format: `BREAKING CHANGE: description`
+
+5. **Evolution Guidelines**
+   - New types and scopes must be documented
+   - Emoji-type mappings must remain consistent
+   - Changes must be tracked in Memory Bank
+   - Pattern modifications require team review
+
+6. **Integration with Git MCP**
+   - Use git_commit tool with standardized messages
+   - Validate commit message format
+   - Track commit patterns in Memory Bank
+   - Monitor error patterns in commit operations
+
 ## Modularity and Scalability
 
 Architecture supporting flexible Next.js development:
