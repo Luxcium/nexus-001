@@ -99,7 +99,9 @@ Here is a revised and **precise set of instructions** for **Cline** that avoids 
 
 ## Version Control
 
-### Git MCP Server Integration
+### MCP Server Integrations
+
+#### Git MCP Server Integration
 
 The project uses the Git MCP server for repository management through Model Context Protocol:
 
@@ -110,6 +112,113 @@ The project uses the Git MCP server for repository management through Model Cont
   - Write operations (commit, add, reset) require explicit permission
   - All Git operations must be documented in Memory Bank
   - Error handling patterns must be recorded
+
+#### GitHub MCP Server Integration
+
+The project extends version control capabilities through the GitHub MCP server:
+
+- Server Name: github.com/modelcontextprotocol/servers/tree/main/src/github
+- Configuration: Managed via cline_mcp_settings.json
+- Authentication: Requires GitHub Personal Access Token with appropriate scopes
+
+##### MCP Server Selection Decision Matrix
+
+Choose between Git MCP and GitHub MCP based on operation context:
+
+1. Git MCP Server (Local Repository Operations):
+   - Working with local repository state
+   - Managing staged/unstaged changes
+   - Creating and switching branches locally
+   - Viewing local commit history
+   - Tracking local file changes
+
+2. GitHub MCP Server (Remote Repository Operations):
+   - Interacting with remote repositories
+   - Managing pull requests and issues
+   - Searching across GitHub
+   - Working with remote branches
+   - Managing repository settings
+
+##### Usage Protocol and Error Handling
+
+1. Repository Operations:
+   - Create, fork, and manage repositories
+   - Search across repositories, code, and issues
+   - Manage files and content
+   Pre-execution checks:
+   - Verify repository permissions
+   - Validate authentication token scopes
+   - Check rate limit status
+   Error handling:
+   - API failures: Implement exponential backoff (3 retries)
+   - Authentication errors: Prompt for token reauthorization
+   - Rate limiting: Wait for reset window
+
+2. Issue and PR Management:
+   - Create and update issues
+   - Create and manage pull requests
+   - Add comments and reviews
+   Pre-execution checks:
+   - Verify write permissions
+   - Validate issue/PR existence
+   - Check branch protection rules
+   Error handling:
+   - Permission errors: Document and request access
+   - Merge conflicts: Provide resolution steps
+   - Branch protection: Document required reviews/checks
+
+3. File Operations:
+   - Create or update files
+   - Push multiple files in single commits
+   - Get file contents and directory listings
+   Pre-execution checks:
+   - Verify file permissions
+   - Check file existence
+   - Validate content format
+   Error handling:
+   - File conflicts: Provide merge strategy
+   - Size limits: Split large operations
+   - Format errors: Validate before submission
+
+4. Search Operations:
+   - Implement rate limit awareness
+   - Cache frequent searches
+   - Handle partial results
+   Error handling:
+   - Timeout: Implement request pagination
+   - No results: Suggest alternative queries
+   - Rate limits: Schedule around reset windows
+
+##### GitHub MCP Tool Selection Framework
+
+AI agency decision criteria for GitHub operations:
+
+1. Repository Management:
+   - create_repository: New project initialization
+   - fork_repository: Contributing to external projects
+   - search_repositories: Project discovery and analysis
+
+2. File Operations:
+   - create_or_update_file: Single file changes
+   - push_files: Batch file operations
+   - get_file_contents: Code inspection and analysis
+
+3. Issue and PR Workflow:
+   - create_issue: Bug reports and feature requests
+   - create_pull_request: Code contribution submission
+   - update_issue: Progress tracking
+   - add_issue_comment: Discussion continuation
+   - merge_pull_request: Code integration
+
+4. Search Operations:
+   - search_code: Pattern and implementation discovery
+   - search_issues: Problem and solution research
+   - search_users: Contributor identification
+
+5. Branch Management:
+   - create_branch: Feature development isolation
+   - list_commits: Change history analysis
+   - get_pull_request_files: Code review preparation
 
 ### Conventional Commits 1.0.0 Implementation
 

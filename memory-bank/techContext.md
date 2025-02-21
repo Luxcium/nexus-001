@@ -232,14 +232,150 @@ Solo development tooling ecosystem with AI assistance:
    - Error prevention systems
    - Progress tracking automation
 
-## Browser Automation Tools
+## MCP Server Tools and Integration
 
-1. **Puppeteer MCP Server Integration**
+### MCP Server Framework
+
+1. **Git MCP Server**
+   - Server: github.com/modelcontextprotocol/servers/tree/main/src/git
+   - Purpose: Local repository operations and version control
+   - Configuration: Managed via cline_mcp_settings.json
+   - Integration: Local Git operations through Model Context Protocol
+   - Error Handling: Local operation validation and recovery
+
+2. **GitHub MCP Server**
+   - Server: github.com/modelcontextprotocol/servers/tree/main/src/github
+   - Purpose: Remote repository and collaboration management
+   - Configuration: Managed via cline_mcp_settings.json
+   - Authentication: GitHub Personal Access Token with defined scopes
+   - Error Handling: API-aware recovery with rate limiting
+
+3. **Puppeteer MCP Server**
    - Server: github.com/modelcontextprotocol/servers/tree/main/src/puppeteer
    - Configuration: Managed via cline_mcp_settings.json
    - Headless Operation: Using xvfb-run for X server simulation
    - Error Handling: Environment-aware setup with fallback options
    - Integration: Model Context Protocol for browser automation
+
+4. **Sequential Thinking MCP Server**
+   - Server: github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking
+   - Purpose: AI-assisted decision making and problem solving
+   - Configuration: Managed via cline_mcp_settings.json
+   - Integration: Structured thinking through Model Context Protocol
+   - Error Handling: Context-aware recovery strategies
+
+### AI Validation and Decision Framework
+
+1. **AI-Assisted Commit Validation Flow**
+
+   ```mermaid
+   graph TD
+      A[New Commit] --> B[AI Pattern Analysis]
+      B --> C[Historical Context Check]
+      C --> D[Pattern Matching]
+      D --> E{Match Found?}
+      E -->|Yes| F[Execute Commit]
+      E -->|No| G[Pattern Learning]
+      G --> H[Document Deviation]
+      H --> I[Update Knowledge Base]
+      F --> J[Document Decision]
+      J --> K[Update Memory Bank]
+   ```
+
+   - Historical pattern verification
+   - Intelligent message validation
+   - Context-aware suggestions
+   - Pattern learning system
+   - Decision documentation
+   - Knowledge base evolution
+
+2. **MCP Pre-Execution Validation Framework**
+
+   ```mermaid
+   graph TD
+      A[MCP Operation] --> B[Token Validation]
+      B --> C[Rate Limit Check]
+      C --> D[Permission Analysis]
+      D --> E{Pass All?}
+      E -->|Yes| F[Execute Operation]
+      E -->|No| G[Failure Handler]
+      G --> H[Retry Strategy]
+      H --> I[Document Pattern]
+      F --> J[Update History]
+      J --> K[Pattern Learning]
+   ```
+
+   - Multi-stage validation
+   - Token scope verification
+   - Rate limit monitoring
+   - Resource validation
+   - Error pattern tracking
+   - Recovery automation
+
+3. **Sequential Thinking Framework**
+
+   ```mermaid
+   graph TD
+      A[Problem Definition] --> B[AI Analysis]
+      B --> C[Solution Tree]
+      C --> D[Context Validation]
+      D --> E{Valid Path?}
+      E -->|Yes| F[Implementation]
+      E -->|No| G[Alternative Routes]
+      G --> H[Pattern Learning]
+      H --> I[Solution Refinement]
+      F --> J[Document Process]
+      J --> K[Update Patterns]
+   ```
+
+   - Structured problem decomposition
+   - AI-guided solution paths
+   - Context-aware validation
+   - Alternative exploration
+   - Pattern recognition
+   - Learning system integration
+
+4. **Documentation Automation Framework**
+
+   ```mermaid
+   graph TD
+      A[System Event] --> B[Pattern Detection]
+      B --> C[Historical Analysis]
+      C --> D[Content Generation]
+      D --> E[Context Validation]
+      E --> F[Memory Bank Update]
+      F --> G[Cross-Reference]
+      G --> H[Pattern Learning]
+      H --> I[Knowledge Evolution]
+   ```
+
+   - Self-improving documentation
+   - Pattern-based generation
+   - Context preservation
+   - Cross-reference automation
+   - Knowledge base evolution
+   - Learning system updates
+
+1. **Pre-Execution Validation**
+   - Token and permission verification
+   - Rate limit awareness
+   - Resource availability checks
+   - Context validation
+   - Pattern matching
+
+2. **Error Recovery Strategy**
+   - Exponential backoff for retries
+   - Context-aware fallbacks
+   - Pattern-based resolutions
+   - Documentation automation
+   - Learning system updates
+
+3. **Cross-MCP Coordination**
+   - Operation routing logic
+   - Unified error handling
+   - Pattern synchronization
+   - Documentation integration
+   - Knowledge preservation
 
 2. **Automation Capabilities**
    - Navigation Tools:

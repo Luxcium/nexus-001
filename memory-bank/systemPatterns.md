@@ -337,7 +337,58 @@ Guidelines ensuring sustainable Next.js development:
 
 ## Version Control Patterns
 
-The system implements standardized patterns for version control using Conventional Commits 1.0.0:
+The system implements standardized patterns for version control using MCP servers and Conventional Commits 1.0.0:
+
+### MCP Server Integration Patterns
+
+#### Local vs. Remote Operations
+
+```mermaid
+graph TD
+    A[Version Control Operation] --> B{Operation Type?}
+    B -->|Local| C[Git MCP Server]
+    B -->|Remote| D[GitHub MCP Server]
+    C --> E[Local Operations]
+    D --> F[Remote Operations]
+    E --> G[Document in Memory Bank]
+    F --> G
+```
+
+1. Git MCP Server (Local Repository Operations):
+   - Repository state management
+   - Staging and commit operations
+   - Local branch management
+   - History and diff operations
+   - File tracking and monitoring
+
+2. GitHub MCP Server (Remote Repository Operations):
+   - Remote repository interactions
+   - Pull request management
+   - Issue tracking and search
+   - Remote branch operations
+   - Repository settings management
+
+#### Error Handling and Recovery
+
+1. Operation Validation:
+   - Pre-execution permission checks
+   - Token scope verification
+   - Rate limit monitoring
+   - Resource availability validation
+
+2. Error Recovery Patterns:
+   - API failure recovery with exponential backoff
+   - Authentication error handling
+   - Rate limit management
+   - Conflict resolution procedures
+
+3. Cross-Server Coordination:
+   - Operation routing based on context
+   - Synchronized error handling
+   - Unified documentation approach
+   - Pattern-based decision making
+
+### Conventional Commits Implementation
 
 1. **Commit Message Structure**
    - Type with Emoji (Required)
@@ -385,19 +436,79 @@ The system implements standardized patterns for version control using Convention
    - Changes must be tracked in Memory Bank
    - Pattern modifications require team review
 
-6. **Integration with Git MCP for Solo Development**
-   - Use git_commit tool with AI-validated messages
-   - Automated commit message format validation
-   - AI-assisted pattern tracking in Memory Bank
-   - Proactive error pattern detection
-   - Solo workflow optimization
+6. **AI-Assisted Commit Validation Framework**
 
-7. **AI-Assisted Version Control**
-   - Pre-commit validation through AI
-   - Historical pattern analysis
-   - Automated consistency checks
-   - Error prevention strategies
+   ```mermaid
+   graph TD
+      A[New Commit] --> B[AI Pattern Analysis]
+      B --> C[Historical Validation]
+      C --> D{Pattern Match?}
+      D -->|Yes| E[Proceed with Commit]
+      D -->|No| F[Pattern Learning]
+      F --> G[Suggest Improvements]
+      G --> H{Accept Changes?}
+      H -->|Yes| E
+      H -->|No| I[Document Deviation]
+      I --> J[Update Pattern DB]
+   ```
+
+   - Pre-commit message analysis
+   - Pattern-based validation rules
+   - Historical context verification
+   - Automated improvement suggestions
+   - Pattern learning and evolution
+   - Decision tracking and documentation
+
+7. **MCP Pre-Execution Validation System**
+
+   ```mermaid
+   graph TD
+      A[MCP Operation Request] --> B[Token Validation]
+      B --> C[Rate Limit Check]
+      C --> D[Permission Verification]
+      D --> E{All Checks Pass?}
+      E -->|Yes| F[Execute Operation]
+      E -->|No| G[Handle Failure]
+      G --> H[Document Error]
+      H --> I[Update Patterns]
+      I --> J[Retry Strategy]
+   ```
+
+   - Comprehensive pre-execution checks
+   - Token and permission validation
+   - Rate limit monitoring and management
+   - Resource availability verification
+   - Error pattern documentation
+   - Recovery strategy implementation
+
+8. **AI-Driven Documentation Automation**
+
+   ```mermaid
+   graph TD
+      A[Operation Execution] --> B[Pattern Detection]
+      B --> C[Auto-Documentation]
+      C --> D[Historical Analysis]
+      D --> E[Pattern Learning]
+      E --> F[Documentation Update]
+      F --> G[Memory Bank Sync]
+      G --> H[Verification]
+   ```
+
+   - Self-improving documentation protocols
+   - Pattern-based content generation
+   - Historical context preservation
+   - Error pattern learning
+   - Knowledge base evolution
+   - Cross-reference maintenance
+
+9. **Integration with Sequential Thinking MCP**
+   - AI-guided decision workflows
+   - Problem decomposition patterns
+   - Solution exploration frameworks
+   - Error mitigation strategies
+   - Pattern-based learning
    - Documentation automation
+   - Cross-MCP coordination
 
 ## Sequential Thinking Patterns with AI Support
 
