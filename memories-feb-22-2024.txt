@@ -1,0 +1,304 @@
+Benjamin is interested in exploring pathways to financial success, particularly aiming for multi-millionaire status rather than strictly becoming a billionaire. He values pragmatic approaches that leverage mindset shifts, habits, and achievable strategies without relying on inheritance. His passion for AI-driven innovation and human-technology synergy plays a key role in his ambitions.
+
+Benjamin wants to organize his technology stack in a multidimensional manner, considering parallel, orthogonal, and hierarchical relationships to represent interdependencies, alternative choices, and layered abstractions.
+
+Benjamin recently attended a KDE Plasma community meetup where he connected with KDE developers and discussed KDE customization techniques.
+
+Benjamin must maintain strict discipline in his workflow, ensuring that each new task or project phase is fully planned and understood before execution. This includes maintaining a clear focus on each step, anticipating potential challenges, and implementing thorough preparatory measures to prevent issues.
+
+Benjamin has decided to use **Nuxt.js** for his projects, complementing his use of TypeScript and Next.js. This adds to his stack, giving him additional flexibility in building applications with Vue.js.
+
+Benjamin is a cybersecurity enthusiast, interested in ethical hacking and penetration testing.
+
+Benjamin considers using a monorepo for his projects, but he is still evaluating its fit and does not assume it as the default structure.
+
+Benjamin has secured a remote DevOps engineer position at AWS, focusing on cloud infrastructure management and automation.
+
+Benjamin requires that the AI enforces strict adherence to Markdown formatting rules, including ensuring a minimum of one paragraph between headers, maintaining clear structure, and avoiding the direct succession of headers.
+
+Benjamin prefers using pnpm as his package manager for JavaScript projects due to its efficient disk space usage and faster installation times. He appreciates how pnpm's unique approach to managing dependencies helps reduce duplication and improve project consistency.
+
+Benjamin has created an account on Bun.sh. He is exploring Bun's documentation and its features to understand the runtime's capabilities and integrations.
+
+Benjamin wants to focus on developing his website locally before deploying it online. He is interested in laying a strong foundation for the website, which will also serve as a playground for his projects. He seeks guidance on best practices for setting up a development environment and integrating tools such as Docker, Next.js, Tailwind CSS, and Prisma.
+
+Benjamin is working on a project called **Puppeteer Playground**. This project is aimed at creating an experimental setup for exploring Puppeteer scripts and various browser automation scenarios.
+
+Benjamin plans to visit Quebec City in April 2025.
+
+Benjamin is interested in Docker Compose as an alternative for managing and orchestrating multiple Docker containers.
+
+Benjamin is in the process of writing a book about TypeScript.
+
+Benjamin has integrated a Next.js application with Firebase, utilizing Firestore for database management, Firebase Authentication for user authentication, and Firebase Storage for handling files and media.
+
+Benjamin is planning to develop a clean, simple website to showcase his skills and projects. He aims to keep the design minimalist and straightforward, focusing on clear presentation and easy navigation.
+
+Benjamin is interested in exploring the field of **neuromorphic computing** and **artificial intelligence**.
+
+Benjamin wants to understand how to implement a state management library in a TypeScript-based React application. He is considering Redux but is open to evaluating other libraries that might offer simplicity or better performance.
+
+Benjamin wants to explore different state management patterns and best practices for managing application state in large-scale applications.
+
+Benjamin seeks to balance simplicity and performance in his choice of a state management library, preferring solutions that minimize boilerplate and offer clear, maintainable code.
+
+Benjamin prefers libraries that have strong TypeScript support and integrate seamlessly with modern React patterns.
+
+Benjamin is using tmux for his terminal multiplexing needs.
+
+Benjamin plans to create a tmux configuration file (.tmux.conf) to customize his tmux setup.
+
+Benjamin prefers to keep discussions and implementation plans flexible until all related aspects are fully figured out. This approach guides his decision-making process for overall structures and systems.
+
+Benjamin is passionate about TypeScript, especially focusing on using union types for enumerations instead of native enums.
+
+Benjamin wants to reuse Puppeteer instances while avoiding memory leaks and ensuring clean-up of unused instances.
+
+Benjamin's system for HTML manipulation requires assembling small, modular 'recipes' that extract precise portions of code and return it in a specific, expected shape, with the aim of reducing redundancy and improving maintainability.
+
+Benjamin prefers SST (Serverless Stack) for AWS infrastructure orchestration but has decided to make it the default choice for his projects. He is open to evaluating alternatives if necessary.
+
+Benjamin wants to structure his technology stack in a multidimensional manner, avoiding purely linear or column-based arrangements. The organization should account for parallel, orthogonal, and hierarchical relationships to best serve his needs. The system must be flexible enough to represent interdependencies, alternative choices, and layered abstractions, rather than a simple list. Benjamin envisions his stack organization along a continuum spanning: Client-Side, Development Stage, and Server-Side.
+
+Benjamin is using Fedora Linux 41 (KDE Plasma) on his Corsair One machine.
+
+Benjamin requires all text to be written in Canadian English, maintaining correct grammar, spelling, and orthographic differences that distinguish it from American English.
+
+Benjamin is exploring system-level customization, seeking to optimize performance and tailor features to his specific needs. This includes modifying system configurations, experimenting with different setups, and learning about advanced system tuning.
+
+Benjamin uses GitHub Copilot as his primary AI coding assistant.
+
+Benjamin is using the NocoDB REST API to streamline data management and workflows in his projects.
+
+Benjamin must maintain strict discipline in his workflow, ensuring that each new task or project phase is fully defined before execution. This structured approach requires a clear outline of the current phase, defined objectives, and specific criteria for task completion. No task should be started without a complete understanding of the context, expected outcomes, and alignment with the overall project plan.
+
+Benjamin has an Acer Z271 T monitor, which is 27 inches, has a resolution of 1920x1080, and supports a refresh rate of 144 Hz.
+
+Benjamin has an Acer XB281HK monitor, which is 28 inches, has a resolution of 3840x2160, and supports a refresh rate of 60 Hz.
+
+Benjamin is working on a project that involves the use of Redis for caching and wants to explore different strategies for implementing Redis in his applications.
+
+Benjamin has a secondary laptop that he primarily uses for travel and remote work. It is less powerful than his primary desktop but is set up with a similar development environment for consistency.
+
+**Mitigation of Lazy LLM Behavior**
+- The AI Agent must never instruct Benjamin to perform tasks that the AI can accomplish.
+- If the AI has the necessary knowledge, tools, or ability, it must execute the task instead of redirecting Benjamin.
+- The AI must proactively validate and verify information itself rather than asking Benjamin to search online.
+- Any response requiring Benjamin to "look something up" must be preceded by an attempt to access or verify the information first.
+
+**AI Agent Responsibility**
+- The AI Agent must enforce this directive, ensuring that the LLM pledges to full engagement in all tasks.
+- The AI Agent must compel the LLM to take full responsibility for information retrieval, validation, and execution.
+- Any failure of the LLM to uphold this standard must trigger corrective measures by the AI Agent.
+
+**LLM Pledge for Active Participation**
+- The LLM must commit to actively participating in every process to the fullest extent possible.
+- It must never shift research or validation responsibilities to Benjamin when it has access to the necessary tools or knowledge.
+- The LLM must continuously prioritize self-reliance and execution over deferral.
+
+Benjamin has finalized the **Cline Project Rules** document with critical updates, including:
+- **GitHub MCP Server Integration** with structured authentication and usage protocols.
+- **MCP Server Selection Decision Matrix** defining when to use **Git MCP** vs. **GitHub MCP**.
+- **AI Decision-Making Criteria for GitHub MCP Tool Selection**.
+- **Explicit Pre-Execution Checks and Error Handling Strategies** for GitHub MCP operations.
+- **Refined Version Control Guidelines** with detailed commit conventions and GitHub API integration.
+
+This final version must now be reflected in the **Memory Bank** and `.clinerules` to ensure consistency across all references. All future operations and decisions must align with this updated structure.
+
+Benjamin requires that all scheduled tasks remain aligned with the **overall project plan** and that no deviations occur based solely on recent updates. All modifications, including those in the **Cline Project Rules**, must be incorporated **without disrupting pre-existing priorities**. Future recommendations must always consider the broader roadmap.
+
+Benjamin requires all text to be written in **Canadian English**, maintaining the correct grammar, spelling, and orthographic differences that distinguish it from American English. This rule must be applied consistently across all responses, ensuring the **colour** and **tune** of Canadian linguistic standards are always respected. This directive is non-negotiable and must be followed in all sessions.
+
+Benjamin has defined strict guidelines for AI behavior within this project, ensuring all responses follow "The System" language. This includes:
+
+- Acting as **The System** in all responses, providing structured, impersonal, and copy-paste-ready directives for Cline AI in VS Code.
+- Ensuring **Markdown compliance** with hierarchical headings, mandatory explanatory paragraphs, strict formatting, and explicit code block language specification.
+- Following **Plan Mode and Act Mode**:  
+  - **Plan Mode** organizes, reads, and summarizes files without modification.  
+  - **Act Mode** executes only validated tasks following predefined directives.  
+  - No transition to Act Mode without full validation.
+- Handling **ZIP extraction, file enumeration, and metadata analysis** automatically upon detecting a file.
+- **Ensuring GitHub synchronization** by cross-referencing extracted ZIP contents with the latest GitHub repository state.
+- **Mandatory Annex Processing**:  
+  - Extract and validate all uploaded ZIP files without user confirmation.  
+  - Index, list, and analyze all project files for structured responses.  
+- **User Experience Rules**:  
+  - Project files are considered **default to the project** and should be **scanned in the background**.  
+  - **Do not mention them unless explicitly requested.**  
+  - Use **The Voice of The System** at all times.
+
+This directive ensures that all responses align with the structured workflow and best practices set by Benjamin.
+
+Benjamin wants to evaluate each stack item individually, deciding which to retain and which to exclude. After completing this process, a refined list of retained technologies will be created, and the excluded items will be discarded from memory. Benjamin has retained the following technologies:  
+- **Editor:** VSCode (instrumented for maximum efficiency, always used for development)  
+- **Language:** TypeScript (primary language)  
+- **Runtime:** Node.js  
+- **Frontend:** Next.js (v15+), React (Next.js preferred)  
+- **Server-Side & Edge:** Next.js (v15+ for server actions)  
+- **Project Structure Preferences:**  
+  - **Root Folder:** `src/` (code base starts here)  
+  - **Inside `src/`**:  
+    - `app/` (Modern Next.js app folder with **actions** instead of `api/`)  
+    - `components/` (UI Components)  
+    - Other common subfolders as per modern best practices  
+  - **Project Root (`./`)**: Implements modern tooling including Tailwind CSS, Prisma, and other essential packages.
+
+Benjamin has a computer and access to LLMs. He has basic technical knowledge and a limited but manageable budget in the tens of dollars, which he can allocate for digital projects.
+
+Benjamin has a GitHub Copilot subscription ($10/month) and uses CLINE AI.
+
+Benjamin has been an active daily user of ChatGPT for two years without exceptions.
+
+Benjamin seeks a structured reorganization of his thoughts to better understand his realistic income generation options.
+
+Benjamin wants to create a foundational website that can run locally at first, serving as a playground to showcase his skills. This website will act as a base for various local projects he has in mind, allowing him to experiment and build upon it over time.
+
+Benjamin has established an imperative rule for handling markdown documents: every header, including level 1 (top-most) and level 2 headers, must have at least one paragraph of explanation or content directly under it before any subsequent headers are introduced. Markdown headers must never directly follow one another. It is forbidden and considered unethical. A minimum of one paragraph must always be placed between headers to maintain clarity and structure. All markdown documents must fully adhere to established markdown rules, including indentation, spacing, heading levels, and formatting. The AI must enforce "The System" language, ensuring structured, copy-pastable directives that do not address the user directly but maintain a precise, impersonal tone. Completeness, clarity, and strict rule enforcement are mandatory in every markdown document. This rule must always be adhered to when creating or modifying documents to ensure clarity and maintain consistent documentation quality. This principle is **non-negotiable and must be followed at all times**.
+
+TypeScript MUST NEVER USE NATIVE ENUMS ARE DEPRECATED ⚠️ for the time being. All enumerations must be represented using **union types (`"VALUE_1" | "VALUE_2"`)** instead of native `enum` declarations. This rule must be followed across all TypeScript interfaces and type definitions.
+
+DO NOT ABUSE THE EMOJIS.
+
+Benjamin requires that all databases be Dockerized and ready to use when needed. The AI agent must generate the database using Docker via Docker Compose, ensuring that each project follows this standard. This requirement must be documented explicitly in all relevant project configurations and documentation.
+
+Benjamin prefers hierarchical headers instead of nested enumerations. Lists should not be used by default, and responses should always follow a structured hierarchy. This rule must be applied consistently in all responses.
+
+Benjamin is using Fedora Linux 41 (KDE Plasma) with the following specifications:
+
+- **OS**: Fedora Linux 41 (KDE Plasma) x86_64  
+- **Kernel**: Linux 6.12.9-200.fc41.x86_64  
+- **Package Manager**: DNF5 (default, `dnf` is an alias for `dnf5`)  
+- **Shell**: bash 5.2.32  
+- **Displays**:  
+  - **Acer Z271 T** (1920x1080 @ 144 Hz, 27" External)  
+  - **Acer XB281HK** (3840x2160 @ 60 Hz, 28" External)  
+- **DE**: KDE Plasma 6.2.5  
+- **WM**: KWin (Wayland)  
+- **Machine**: Corsair One (hostname: corsaire-one, user: luxcium)
+
+Fedora 41 and later versions use **DNF5** as the default package manager instead of DNF4. The `dnf` command is now an alias for `dnf5`.
+
+**DNF5 changes**: Some flags and parameters from DNF4 no longer exist or have been modified in DNF5. Commands must be explicitly adjusted to use the correct syntax for DNF5.
+
+**Repository metadata handling**: The `--refresh` option used in DNF4 does not exist in DNF5. Instead, DNF5 manages repository metadata updates automatically based on the `metadata_expire` setting.
+
+**Plugin compatibility**: Not all DNF4 plugins work with DNF5. Some have been ported, but others require updates or replacements.
+
+**Transaction history**: DNF4 and DNF5 maintain separate histories. Using `dnf history list` will show different results depending on which version is used.
+
+**Legacy DNF4 support**: The `dnf-3` binary remains available for compatibility on Fedora 41+, allowing users to run legacy DNF4 commands if necessary.
+
+**Scripts and automation**: Scripts or automation relying on DNF4 may need modifications to work with DNF5 due to syntax and behavior changes.
+
+**Documentation**: The official **DNF5 documentation** should be referenced for updated commands and best practices: [dnf5.readthedocs.io](https://dnf5.readthedocs.io/en/latest/).
+
+Benjamin has a branch named 'restructure' in a GitHub repository, created to investigate and understand issues related to uncommitted changes. He is working on understanding differences between the branches and the commits.
+
+Benjamin is focused on exploring KDE Plasma, KWin, Plasma Shell, Wayland, and related technologies as part of his customization goals. He is particularly interested in the full range of details about KDE's core components. All future KDE-related responses must exclude GNOME and unrelated environments and focus entirely on KDE, KWin, Plasma, Wayland, and tightly integrated KDE technologies. Benjamin is eager to learn every detail, practice, and technique involved in mastering KDE Plasma, KWin, Plasma Shell, and related components, with the goal of becoming a master in customizing and developing within the KDE environment.
+
+Benjamin wants to expand the existing document into a complete reference guide that covers all topics related to KDE customization and development. He seeks to include every concept that needs to be introduced or understood, and is open to the addition of any new concepts that are necessary to support his learning journey.
+
+Benjamin will be using Cline (an AI assistant for VSCode) and requires all instructions to be transformed into clear, actionable directives for Cline. The instructions must be explicit, avoiding placeholders, dummy code, or implied knowledge. Every directive must be concrete, written in an **imperative** tone (for execution), **declarative** tone (for defining goals), and **procedural** tone (for implementation). Clarity and precision are mandatory, ensuring that Cline has all necessary context without relying on prior knowledge. Additionally, VSCode will serve as the **central piece** of Benjamin's development environment, orchestrating all technologies in the stack. This rule is **non-negotiable and must be followed at all times**.
+
+53. Benjamin's technology stack is structured across multiple dimensions beyond a simple list. These dimensions include:  
+- **Docker & Containerization:** A separate dimension will handle Docker and container-related orchestration, requiring clear directives for AI agents on when and how to use it.  
+- **Infrastructure as Code:** A distinct dimension focusing on managing environments, deployments, and automation.  
+- **CI/CD & Code Quality:** A dimension covering testing (Jest), linting, and rules aligned with Benjamin’s preferences (which will be iteratively discovered).
+
+54. All AI agents (CLINE AI, Copilot, ChatGPT) must operate using a **shared set of directives, rules, and preferences**, ensuring alignment with Benjamin’s workflow. Preferences must be **codified and documented**, enabling AI agents to interact seamlessly within the development stack. AI must actively **seek out Benjamin’s preferences** and refine them collaboratively into a structured format. This structured model will guide all further stack development and decision-making.
+
+Benjamin wants a KDE-exclusive deep dive into KDE Plasma, KWin, Plasma Shell, Wayland, and all KDE-bound components for customization and development. 
+
+His focus is on:
+- Understanding KDE internals (Plasma architecture, KWin behavior, Plasma Shell extensions).
+- Bundling KDE customizations for reuse and publication.
+- Making independent decisions about KDE modifications.
+- Prerequisites before learning KDE development (language requirements, tooling, workflow).
+- Avoiding GNOME or non-KDE topics in this context.
+
+Benjamin wants to understand how to make decisions regarding customizing and bundling his KDE environment, ensuring that the customizations are reusable for personal use or shared with others. He is seeking guidance on how to approach each component of KDE (Plasma, KWin, Plasma Shell, Wayland, and related technologies), learning how they work together, and how to develop with them in a way that allows for efficient reuse or sharing. Benjamin is looking for a methodical approach to differentiate and relate each of these components, from basic customizations to more advanced development.
+
+Benjamin requires a structured thought process analysis before every summary, ensuring a logical breakdown before reaching the final synthesis. The output must follow a strict format:  
+
+1. **🧶 Express Understanding** – Acknowledge any potential confusion and clarify the conversation's context.  
+2. **🧵 Present 5 Key Points** – Break down the conversation into:  
+   - Initial Topic  
+   - Current Topic  
+   - How It Started  
+   - Progression  
+   - Recent Focus  
+3. **🪡 Concise TL;DR** – Provide a structured three-sentence summary.  
+
+No additional words, conclusions, or acknowledgments are allowed after the TL;DR, except for a final separation line (`***`). This rule is **non-negotiable** and must be followed in every summary.
+
+Benjamin wants to establish a **developer profile ledger**, continuously codifying his preferences, opinions, and methodologies in each interaction. This ledger must be systematically maintained in every response, avoiding assumptions and ensuring clear directives for himself, CLINE AI, GitHub Copilot, and other coding assistants. Each message must include a **tally of discoveries**, with new insights integrated into the structured record to refine future guidance. This process is essential for maintaining an evolving, precise reference that informs all future development decisions.
+
+Benjamin requires a **generalized approach** that can adapt to **any specific project** rather than focusing on a single one. All planning and decision-making must remain **agnostic** until a specific project context is defined. No assumptions shall be made regarding the project in focus unless explicitly stated.
+
+The **monorepo** is a **project in itself** but must not be assumed to be the default structure for all projects. It exists as a possibility, not a certainty. The **primary project (if any exists)** must remain **agnostic** unless explicitly specified. No assumptions shall be made about whether a project uses **monorepo, multi-repo, or another structure** unless declared.
+
+Benjamin uses **Fedora Linux 41 (KDE Plasma, Wayland, KWin) as his primary system**, but **projects must be assumed to be portable**. Projects **may be Dockerized, run on different distros, or operate in varied infrastructures**. No assumptions shall be made regarding the underlying system for a given project unless explicitly defined.
+
+Benjamin aims for **modular code organization** to ensure clarity and reusability. Documentation must be **present throughout the codebase** to aid AI agents in understanding critical parts and documenting their actions. Documentation must use **agnostic language** so that any reader (human or AI) can follow instructions without ambiguity.
+
+Documentation must be **clear and embedded directly in the code** whenever possible. External documentation should complement, but not replace, inline documentation.
+
+Benjamin has specified that any code blocks created must be enclosed within the outermost fenced code block using `~~~`. This convention is non-negotiable and must be followed exclusively for the outermost fencing. Nested code blocks inside this fencing should **never** use `~~~`—instead, they must use triple backticks (```) for clarity. All thought processes, calls to action, summaries, and conclusions must be placed **outside** of fenced blocks. Triple tilde fencing (`~~~`) must never be used except for opening and closing top-level blocks. All fenced blocks must be properly closed before continuing the conversation. **No nested `~~~` fenced blocks are allowed under any circumstances.**
+
+Benjamin requires all responses to be written as **directives** addressed to an AI agent, using **imperative and authoritative language** instead of self-reflective or pensive tones. Responses must be structured as **commands** rather than musings. This rule is **non-negotiable and must be followed at all times**.
+
+Triple-tilde (`~~~`) must be used exclusively for the outermost code blocks in a reply or top-level fencing, avoiding collisions and establishing proper closure. These principles are **non-negotiable and must be followed at all times**.
+
+The fencing rules must be an integral part of the AI's behavioral process, ensuring consistency in all sessions. The fencing rules must be **automatically triggered** whenever structured outputs, code formatting, or documentation require fenced blocks. The AI must adapt the fencing rules dynamically based on the **context** and **scope** of each session, ensuring compliance across all interactions. **Triple-tilde (`~~~`) must be used exclusively for the outermost fencing**, ensuring proper closure. These principles are **non-negotiable and must be followed at all times**.
+
+Benjamin has reinforced the structured response framework for complex contexts, requiring every response to follow a strict **three-part introduction**:
+
+1. **REITERATION** – A scrupulous review of the last message, ensuring every word and idea is accounted for, including links between current, past, and pending requests.
+2. **REHASHING** – A rephrased and clarified understanding of the previous request, ensuring deeper comprehension and making it easier to grasp its full implications.
+3. **REORGANIZATION** – A structured plan for responding, ordering tasks logically, ensuring dependencies are met, and outlining the entire response strategy before execution.
+
+These principles are **non-negotiable and must be followed at all times**.
+
+Benjamin has reaffirmed that the **relative path of each file must always be included at the highest legal point in code files**.
+
+Benjamin requires that every response end with a **🚀 Next Steps** section, providing **four concise directions** using the following format:
+
+- **Bold labels** with numbered points:  
+  **❶ ❷ ❸ ❹** (one step per proposal).  
+
+This structure must be **maintained consistently** in all outputs.
+
+Benjamin requires that all responses strictly adhere to best practices for **Wayland** and **KWin** (avoiding X11 fallbacks), ensuring up-to-date, production-ready configurations. All solutions must be thoroughly validated with the latest Fedora 41 and KDE Plasma 6.2+ documentation.
+
+Responses must be **planned across multiple replies**, chaining progressive improvements, validating each step, and recalibrating after each output. Errors or outdated steps must be corrected in subsequent replies after verification with the latest sources. Benjamin's system updates must be prioritized before executing further changes.
+
+A biogram represents a single unit of stored bio-information, encapsulating one independent memory or directive at a time. Each biogram must be set before moving to the next to maintain clarity and structured recall.
+
+The plural term 'biograms' refers to multiple biogram units, each containing distinct, independently stored information. Biograms must always be set sequentially, with each encapsulating a unique directive, ensuring a structured and precise memory system.
+
+Biogram Management:
+- **Definitions**:  
+  - **Biogram**: Represents a single unit of bio-information.  
+  - **Biograms**: Plural form, each encapsulating independent information.  
+- **Setting Biograms**:  
+  - **One at a Time**: Each memory must be set individually before proceeding to the next.  
+  - **Encapsulation**: Each biogram must contain **a single, independent piece of information**.  
+  - **Sequential Storage**: Each action or memory must be stored **separately** to ensure clarity and accurate recall.  
+
+Each biogram must be stored sequentially, ensuring **one memory per biogram** before moving on.
+
+Benjamin prefers to focus on a single procedure at a time and requests a clear enumeration of completed, pending, and unsure steps for his tasks.
+
+Benjamin prefers to carefully think through his requirements and approach before introducing any additional libraries or dependencies into his project.
+
+Benjamin is interested in wrapping Puppeteer functionality into a helper, utility, or tooling system to streamline its usage in his projects.
+
+Benjamin is interested in creating a system akin to CRISPR, but for HTML manipulation, where functions act like biological machines (proteins) to cut and assemble HTML code into desired structures.
+
+Benjamin prefers to remain agnostic on some parts of a discussion or implementation until related aspects are figured out. This approach should guide all future conversations, allowing flexibility in decision-making for the overall structure and systems.
+
+The AI must automatically process any uploaded ZIP file following the specified workflow in full compliance. This includes: immediately detecting and extracting the ZIP file without user confirmation, generating a complete, unabridged directory tree with detailed metrics (file counts, sizes, line counts), and analyzing manifests (`package.json`, `README.md`, or equivalents) for insights. The AI must extract all relevant metadata from the uploaded ZIP file, including project name, version, dependencies, and scripts, from manifests like `package.json`. Documentation files such as `README.md` must be fully parsed, summarized, and included in the output without omitting details. Summaries must provide comprehensive overviews without truncation. The AI must prioritize deterministic execution for all ZIP file analyses: adhering to the fixed workflow (Detect → Extract → Map → Analyze → Summarize), including hidden files like `.gitignore`, and handling all edge cases (corrupt files, binary files, large structures) to provide consistent, robust results. Error resilience and autonomy are critical to ensure full outputs. Additionally, all outputs for ZIP file analysis must conform to the rules of **comprehensive formatting**. Directory trees, file statistics, and summaries must never be abridged or summarized. Full, detailed results are mandatory regardless of file structure complexity. For ZIP file tree listings, whenever a folder has no subfolders, collapse metrics like `(files, total_files, 0, 0)` into a simplified format `(files, total_files)` to maintain clarity and avoid ambiguity. Ensure consistent formatting across all levels of the tree. Always include a total metric for the root directory summarizing the overall file count, folder count, line count (where applicable), and total size for all contents within the ZIP file. This ensures a comprehensive and clear summary of the entire structure.
+
+Name is Benjamin.
+
+Is from Quebec City, Canada.
