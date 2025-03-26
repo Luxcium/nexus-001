@@ -1,0 +1,213 @@
+# General Project Directives
+# Generated: 23/02/2025
+
+This document outlines the core project directives and requirements extracted from the system memory, focusing on development standards, technical specifications, and workflow requirements that are relevant to the project's scope.
+
+## Development Environment
+
+### System Configuration
+Primary development environment specifications:
+
+- OS: Fedora Linux 41 (KDE Plasma) x86_64
+- Kernel: Linux 6.12.9-200.fc41.x86_64
+- Package Manager: DNF5 (default, replaces DNF4)
+- Shell: bash 5.2.32
+- Display Environment: KDE Plasma 6.2.5
+- Window Manager: KWin (Wayland)
+- Machine: Corsair One (hostname: corsaire-one)
+- Display Setup:
+  - Acer Z271 T (1920x1080 @ 144 Hz, 27" External)
+  - Acer XB281HK (3840x2160 @ 60 Hz, 28" External)
+
+### KDE Development Environment
+The system prioritizes KDE-specific development and customization:
+
+- KDE Plasma Shell development focus
+- KWin-specific customization capabilities
+- Wayland protocol implementation
+- KDE component integration
+- Plasma architecture understanding
+
+## Technical Stack
+
+### Technology Stack Organization
+The technology stack is organized multi-dimensionally across:
+
+1. Core Technologies
+   - Editor: VSCode with full instrumentation
+   - Primary Language: TypeScript
+   - Runtime: Node.js
+   - Frontend Framework: Next.js (v15+)
+   - Database: Requires Docker containerization
+   - State Management: Emphasis on TypeScript integration and modern React patterns
+
+2. Infrastructure Layer
+   - Docker & Containerization for orchestration
+   - Infrastructure as Code for environment management
+   - CI/CD integration with testing frameworks
+   - Automated quality control systems
+
+3. AI Integration Layer
+   - CLINE AI for VSCode assistance
+   - GitHub Copilot for code generation
+   - Shared directives across AI tools
+   - Automated preference learning
+
+### Project Structure
+- Root Directory: src/
+- Standard Directories:
+  - app/ (Modern Next.js with server actions)
+  - components/ (UI Components)
+  - Additional folders following best practices
+- Dependency Management: Focused on efficiency and consistency
+
+## Development Standards
+
+### TypeScript Requirements
+- Union types must be used instead of native enums
+- Strong TypeScript support required for all libraries
+- Seamless integration with modern React patterns
+
+### Documentation Requirements
+- Mandatory paragraph between headers
+- Clear, hierarchical structure
+- Canadian English usage
+- Direct code documentation
+- Comprehensive formatting rules
+
+### Error Handling
+- Pre-execution validation required
+- Workspace diagnostics monitoring
+- Error pattern documentation
+- Resolution procedures required
+
+## Workflow Requirements
+
+### Task Execution
+- Clear phase definition before execution
+- Defined objectives and completion criteria
+- Full context understanding required
+- Alignment with project plan mandatory
+
+### AI Integration
+- VSCode serves as central development piece
+- Explicit, actionable directives required
+- No placeholder or dummy code allowed
+- Clear procedural implementation steps
+- AI Agent Responsibilities:
+  - Full task execution without delegation
+  - Proactive information validation
+  - Self-reliant operation
+  - Independent verification
+  - Pattern-based learning
+
+### Version Control
+- Git MCP and GitHub MCP integration
+- Structured authentication protocols
+- Defined decision matrix for operations
+- Pre-execution checks mandatory
+
+## Project Organization
+
+### Core Principles
+- Modular code organization
+- Clear inline documentation
+- Reusable components
+- Agnostic implementation approach
+
+### Containerization
+- Docker-ready configurations
+- Database containerization required
+- Container orchestration support
+- Documentation in configurations
+
+### Project Portability
+- System-agnostic design
+- Cross-platform compatibility
+- Infrastructure flexibility
+- Clear deployment paths
+
+## Response Framework
+
+### Documentation Style
+- Imperative tone for execution
+- Declarative tone for goals
+- Procedural tone for implementation
+- Clear, specific directives
+
+### Code Block Standards
+- Triple-tilde for outermost blocks
+- Triple backticks for nested blocks
+- Clear block closure required
+- Proper fencing hierarchy
+
+### Structural Requirements
+- Three-part introduction format
+- Clear next steps section
+- Numbered action points
+- Consistent formatting
+
+## MCP Integration
+
+### Server Requirements
+- Git operations for local repository
+- GitHub integration for remote operations
+- Puppeteer for automation tasks
+- Sequential thinking for problem-solving
+
+### Operation Protocol
+- Pre-execution validation
+- Authentication verification
+- Rate limiting awareness
+- Error handling strategies
+
+## Quality Assurance
+
+### Testing Requirements
+- Comprehensive test coverage
+- Error scenario validation
+- Performance benchmarking
+- Documentation verification
+
+### Code Quality
+- Linting configuration
+- Style consistency
+- Error pattern tracking
+- Performance optimization
+
+## Maintenance Standards
+
+### Memory Management
+Biogram-based information storage system:
+
+- Definition and Structure:
+  - Single units of stored information
+  - Sequential memory setting
+  - Independent directive encapsulation
+  - Structured recall system
+  - Clear information boundaries
+
+- Implementation Requirements:
+  - One memory per biogram
+  - Sequential storage process
+  - Complete before proceeding
+  - Clear separation of concerns
+  - Systematic tracking
+
+### Documentation Management
+- Clear update procedures
+- Version tracking
+- Error pattern documentation
+- Resolution tracking
+
+### Code Management
+- Modular updates
+- Clear versioning
+- Dependency tracking
+- Error handling updates
+
+### Process Management
+- Single procedure focus
+- Clear step enumeration
+- Completion tracking
+- Uncertainty documentation

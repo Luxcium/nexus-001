@@ -1,11 +1,22 @@
 'use client';
 
 import { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { type SidebarProps } from "@/types/layout";
 
 export default function Sidebar({ initialOpen = true }: Readonly<SidebarProps>) {
   // This will be used for mobile responsiveness
   const [isOpen, setIsOpen] = useState(initialOpen);
+  const pathname = usePathname();
+
+  const navItems = [
+    { path: "/", label: "Dashboard" },
+    { path: "/components-demo", label: "Components Demo" },
+    { path: "/actions-demo", label: "Actions Demo" },
+    { path: "/project-one", label: "Project One" },
+    { path: "/project-two", label: "Project Two" },
+  ];
 
   return (
     <aside 
@@ -20,21 +31,27 @@ export default function Sidebar({ initialOpen = true }: Readonly<SidebarProps>) 
       <nav className="p-4">
         <div className="mb-4 pb-4 border-b border-black/[.1] dark:border-white/[.1]">
           <h2 className="font-semibold text-sm uppercase text-foreground/70">
-            Projects
+            Navigation
           </h2>
         </div>
         
-        {/* Placeholder navigation items */}
+        {/* Navigation items */}
         <div className="space-y-2">
-          <button className="w-full text-left px-3 py-2 rounded-lg hover:bg-black/[.05] dark:hover:bg-white/[.06] transition-colors">
-            Dashboard
-          </button>
-          <button className="w-full text-left px-3 py-2 rounded-lg hover:bg-black/[.05] dark:hover:bg-white/[.06] transition-colors">
-            Project One
-          </button>
-          <button className="w-full text-left px-3 py-2 rounded-lg hover:bg-black/[.05] dark:hover:bg-white/[.06] transition-colors">
-            Project Two
-          </button>
+          {navItems.map(item => (
+            <Link 
+              key={item.path} 
+              href={item.path}
+              className={`
+                block w-full text-left px-3 py-2 rounded-lg 
+                transition-colors
+                ${pathname === item.path 
+                  ? "bg-black/[.06] dark:bg-white/[.08] font-medium" 
+                  : "hover:bg-black/[.05] dark:hover:bg-white/[.06]"}
+              `}
+            >
+              {item.label}
+            </Link>
+          ))}
         </div>
       </nav>
 
