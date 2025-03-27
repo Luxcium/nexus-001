@@ -12,10 +12,7 @@ export default function Sidebar({ initialOpen = true }: Readonly<SidebarProps>) 
 
   const navItems = [
     { path: "/", label: "Dashboard" },
-    { path: "/components-demo", label: "Components Demo" },
-    { path: "/actions-demo", label: "Actions Demo" },
-    { path: "/project-one", label: "Project One" },
-    { path: "/project-two", label: "Project Two" },
+    { path: "/system/ports", label: "System Ports" },
   ];
 
   return (
